@@ -16,7 +16,7 @@ async def query_leads(query: str, is_high_priority: Optional[bool] = None):
 
     Args:
         query (str): The search query for leads.
-        is_high_priority (str, optional): Filter for high priority leads. Accepts "true" or "false". Defaults to None.
+        is_high_priority (bool, optional): Filter for high priority leads.
 
     Returns:
         list: A list of leads matching the search criteria.

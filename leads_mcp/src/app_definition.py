@@ -12,9 +12,11 @@ async def combine_mcp_lifespans(app):
         await stack.enter_async_context(leads_app.lifespan(app))
         yield
 
+def create_app():
+    app = FastAPI(
+        lifespan=combine_mcp_lifespans  # one lifespan to rule them all
+    )
 
-app = FastAPI(
-    lifespan=combine_mcp_lifespans #  one lifespan to rule them all
-)
+    app.mount("/v1/leads/", leads_app)
 
-app.mount("/v1/leads/", leads_app)
+    return app

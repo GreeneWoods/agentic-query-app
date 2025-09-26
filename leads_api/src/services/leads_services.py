@@ -78,6 +78,12 @@ async def is_high_priority_lead(lead_data: dict) -> bool:
 
 
 async def extract_filters(lead_data: dict):
+    """
+    it pains me that this isn't a full db connection, but I wanted to avoid adding
+    too much complexity at this time.
+    :param lead_data:
+    :return:
+    """
     tags = lead_data.get('tag', [])
     with open('./services/tags.json', 'r') as f:
         all_tags = json.load(f)

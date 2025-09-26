@@ -1,0 +1,5086 @@
+[
+  {
+    "id": 1,
+    "first_name": "Avery",
+    "last_name": "Nguyen",
+    "email": "avery.nguyen@aurorasoft.example",
+    "job_title": "VP of Marketing",
+    "company": "AuroraSoft",
+    "company_size": 1200,
+    "industry": "SaaS",
+    "location": "Austin, TX",
+    "website": "https://aurorasoft.example",
+    "tech_stack": [
+      "HubSpot",
+      "Salesforce",
+      "Segment",
+      "Amplitude"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-30",
+    "notes": "Evaluating programmatic to scale ABM; comparing StackAdapt vs. The Trade Desk. Interested in retail media pilots and privacy-safe audience building.",
+    "tags": [
+      "ABM",
+      "privacy",
+      "retail media"
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Ben",
+    "last_name": "Okafor",
+    "email": "ben.okafor@zenithcare.example",
+    "job_title": "Director of Growth",
+    "company": "ZenithCare Health",
+    "company_size": 450,
+    "industry": "Healthcare",
+    "location": "Chicago, IL",
+    "website": "https://zenithcare.example",
+    "tech_stack": [
+      "Marketo",
+      "Salesforce",
+      "Tableau"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-05",
+    "notes": "Focused on HIPAA-compliant lead gen for provider recruitment; wants geofencing around hospitals and lookalike modeling.",
+    "tags": [
+      "HIPAA",
+      "geofencing",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Chloe",
+    "last_name": "Martinez",
+    "email": "chloe.martinez@northwindretail.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "Northwind Retail",
+    "company_size": 2200,
+    "industry": "Ecommerce",
+    "location": "New York, NY",
+    "website": "https://northwindretail.example",
+    "tech_stack": [
+      "Shopify",
+      "Klaviyo",
+      "GA4",
+      "BigQuery"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-12",
+    "notes": "Q4 focus on ROAS for holiday; needs dynamic retargeting and product feeds. Concerned about signal loss post-cookie.",
+    "tags": [
+      "ROAS",
+      "retargeting",
+      "Q4"
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Diego",
+    "last_name": "Ramos",
+    "email": "diego.ramos@clearskyenergy.example",
+    "job_title": "Senior Demand Gen Manager",
+    "company": "ClearSky Energy",
+    "company_size": 380,
+    "industry": "Energy",
+    "location": "Denver, CO",
+    "website": "https://clearskyenergy.example",
+    "tech_stack": [
+      "HubSpot",
+      "Snowflake",
+      "Looker"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-15",
+    "notes": "Solar installer B2B lead gen; wants form enrichment and call tracking integration.",
+    "tags": [
+      "solar",
+      "B2B",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 5,
+    "first_name": "Esha",
+    "last_name": "Patel",
+    "email": "esha.patel@monarchbank.example",
+    "job_title": "Director, Digital Acquisition",
+    "company": "Monarch Bank",
+    "company_size": 5200,
+    "industry": "Financial Services",
+    "location": "Toronto, ON",
+    "website": "https://monarchbank.example",
+    "tech_stack": [
+      "Adobe Analytics",
+      "Tealium",
+      "Salesforce"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-18",
+    "notes": "Needs compliant audience solutions, MMM readiness, and branch-level attribution.",
+    "tags": [
+      "finance",
+      "attribution",
+      "MMM"
+    ]
+  },
+  {
+    "id": 6,
+    "first_name": "Farah",
+    "last_name": "Haddad",
+    "email": "farah.haddad@orbitmobility.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "Orbit Mobility",
+    "company_size": 150,
+    "industry": "Mobility",
+    "location": "San Francisco, CA",
+    "website": "https://orbitmobility.example",
+    "tech_stack": [
+      "HubSpot",
+      "Mixpanel"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-10",
+    "notes": "Launching in 3 new cities; wants city-level targeting and creatives that localize offers.",
+    "tags": [
+      "geo",
+      "creative",
+      "launch"
+    ]
+  },
+  {
+    "id": 7,
+    "first_name": "Gabe",
+    "last_name": "Ishikawa",
+    "email": "gabe.ishikawa@pillarhcm.example",
+    "job_title": "VP, Demand Generation",
+    "company": "PillarHCM",
+    "company_size": 800,
+    "industry": "HR Tech",
+    "location": "Seattle, WA",
+    "website": "https://pillarhcm.example",
+    "tech_stack": [
+      "Marketo",
+      "Salesforce",
+      "6sense"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-09",
+    "notes": "Account-based plays; wants custom ICP scoring and intent data activation.",
+    "tags": [
+      "ABM",
+      "intent",
+      "ICP"
+    ]
+  },
+  {
+    "id": 8,
+    "first_name": "Hanna",
+    "last_name": "Schultz",
+    "email": "hanna.schultz@alpenfoods.example",
+    "job_title": "Brand Director",
+    "company": "Alpen Foods",
+    "company_size": 2300,
+    "industry": "CPG",
+    "location": "Minneapolis, MN",
+    "website": "https://alpenfoods.example",
+    "tech_stack": [
+      "NielsenIQ",
+      "GA4",
+      "Salesforce"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-27",
+    "notes": "Retail media tests with multiple grocers; cares about household penetration and incrementality.",
+    "tags": [
+      "CPG",
+      "retail media",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 9,
+    "first_name": "Ian",
+    "last_name": "Park",
+    "email": "ian.park@vectorai.example",
+    "job_title": "Director of Product Marketing",
+    "company": "VectorAI",
+    "company_size": 310,
+    "industry": "AI/ML",
+    "location": "Boston, MA",
+    "website": "https://vectorai.example",
+    "tech_stack": [
+      "HubSpot",
+      "Gong",
+      "Salesforce"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-14",
+    "notes": "Promoting new RAG features; wants technical content syndication and developer audience targeting.",
+    "tags": [
+      "developer",
+      "content",
+      "RAG"
+    ]
+  },
+  {
+    "id": 10,
+    "first_name": "Jada",
+    "last_name": "Kim",
+    "email": "jada.kim@blueharbor.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "BlueHarbor Cruises",
+    "company_size": 1400,
+    "industry": "Travel",
+    "location": "Miami, FL",
+    "website": "https://blueharbor.example",
+    "tech_stack": [
+      "Adobe Campaign",
+      "GA4"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-03",
+    "notes": "Seasonal promos; keen on weather-triggered campaigns and propensity modeling.",
+    "tags": [
+      "travel",
+      "seasonality",
+      "propensity"
+    ]
+  },
+  {
+    "id": 11,
+    "first_name": "Kai",
+    "last_name": "Wong",
+    "email": "kai.wong@greengrid.example",
+    "job_title": "Director of Analytics",
+    "company": "GreenGrid Utilities",
+    "company_size": 5200,
+    "industry": "Utilities",
+    "location": "Portland, OR",
+    "website": "https://greengrid.example",
+    "tech_stack": [
+      "Snowflake",
+      "DBT",
+      "Looker"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-12",
+    "notes": "Wants offline conversions from call center matched to upper-funnel spend; strict data governance.",
+    "tags": [
+      "offline",
+      "governance",
+      "attribution"
+    ]
+  },
+  {
+    "id": 12,
+    "first_name": "Lina",
+    "last_name": "Hossain",
+    "email": "lina.hossain@skylineedu.example",
+    "job_title": "VP of Enrollment Marketing",
+    "company": "Skyline University",
+    "company_size": 900,
+    "industry": "Education",
+    "location": "Phoenix, AZ",
+    "website": "https://skylineedu.example",
+    "tech_stack": [
+      "Slate",
+      "GA4"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-01",
+    "notes": "Undergrad and MBA programs; wants lead-to-enrollment tracking and Spanish-language creatives.",
+    "tags": [
+      "education",
+      "tracking",
+      "localization"
+    ]
+  },
+  {
+    "id": 13,
+    "first_name": "Marta",
+    "last_name": "Silva",
+    "email": "marta.silva@novaclinic.example",
+    "job_title": "CMO",
+    "company": "Nova Clinic Network",
+    "company_size": 120,
+    "industry": "Healthcare",
+    "location": "Los Angeles, CA",
+    "website": "https://novaclinic.example",
+    "tech_stack": [
+      "HubSpot",
+      "Zapier"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-07",
+    "notes": "Multi-location clinics; wants radius targeting and call-only campaigns.",
+    "tags": [
+      "healthcare",
+      "radius",
+      "call tracking"
+    ]
+  },
+  {
+    "id": 14,
+    "first_name": "Noah",
+    "last_name": "Fischer",
+    "email": "noah.fischer@quartzfinance.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "Quartz Finance",
+    "company_size": 3300,
+    "industry": "Fintech",
+    "location": "London, UK",
+    "website": "https://quartzfinance.example",
+    "tech_stack": [
+      "GA4",
+      "Braze",
+      "mParticle"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-16",
+    "notes": "App install growth in EU; needs SKAN-friendly measurement and fraud mitigation.",
+    "tags": [
+      "mobile",
+      "SKAN",
+      "fraud"
+    ]
+  },
+  {
+    "id": 15,
+    "first_name": "Omar",
+    "last_name": "El-Sayed",
+    "email": "omar.elsayed@terraagro.example",
+    "job_title": "Growth Lead",
+    "company": "TerraAgro",
+    "company_size": 80,
+    "industry": "AgTech",
+    "location": "Des Moines, IA",
+    "website": "https://terraagro.example",
+    "tech_stack": [
+      "HubSpot",
+      "Airtable"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-20",
+    "notes": "Seasonal B2B2C campaigns; wants coop marketing with dealers and weather triggers.",
+    "tags": [
+      "agriculture",
+      "seasonality",
+      "dealers"
+    ]
+  },
+  {
+    "id": 16,
+    "first_name": "Priya",
+    "last_name": "Kannan",
+    "email": "priya.kannan@heliosmedia.example",
+    "job_title": "Director, Media Strategy",
+    "company": "Helios Media Group",
+    "company_size": 260,
+    "industry": "Media & Entertainment",
+    "location": "Los Angeles, CA",
+    "website": "https://heliosmedia.example",
+    "tech_stack": [
+      "Asana",
+      "Google Ads",
+      "Snowflake"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-11",
+    "notes": "Pilot CTV buys; cares about deduped reach and brand safety controls.",
+    "tags": [
+      "CTV",
+      "brand safety",
+      "reach"
+    ]
+  },
+  {
+    "id": 17,
+    "first_name": "Quinn",
+    "last_name": "Brown",
+    "email": "quinn.brown@rapidlogix.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "RapidLogix",
+    "company_size": 640,
+    "industry": "Logistics",
+    "location": "Dallas, TX",
+    "website": "https://rapidlogix.example",
+    "tech_stack": [
+      "Marketo",
+      "Salesforce",
+      "PowerBI"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-13",
+    "notes": "Enterprise shipping SaaS; wants lead routing by territory and real-time enrichment.",
+    "tags": [
+      "logistics",
+      "routing",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 18,
+    "first_name": "Rina",
+    "last_name": "Sato",
+    "email": "rina.sato@hanatech.example",
+    "job_title": "Senior Growth Manager",
+    "company": "HanaTech",
+    "company_size": 410,
+    "industry": "SaaS",
+    "location": "Tokyo, JP",
+    "website": "https://hanatech.example",
+    "tech_stack": [
+      "HubSpot",
+      "Metabase"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-25",
+    "notes": "APAC expansion; prefers privacy-first audiences and lightweight SDK integrations.",
+    "tags": [
+      "APAC",
+      "privacy",
+      "SDK"
+    ]
+  },
+  {
+    "id": 19,
+    "first_name": "Samir",
+    "last_name": "Qureshi",
+    "email": "samir.qureshi@everfreshgrocers.example",
+    "job_title": "Director of CRM & Loyalty",
+    "company": "EverFresh Grocers",
+    "company_size": 8900,
+    "industry": "Retail",
+    "location": "Atlanta, GA",
+    "website": "https://everfreshgrocers.example",
+    "tech_stack": [
+      "Snowflake",
+      "mParticle",
+      "Braze"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-04",
+    "notes": "Retail media network in progress; wants incrementality testing and clean room integrations.",
+    "tags": [
+      "retail media",
+      "clean room",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 20,
+    "first_name": "Talia",
+    "last_name": "Reed",
+    "email": "talia.reed@cleverpets.example",
+    "job_title": "Marketing Manager",
+    "company": "CleverPets",
+    "company_size": 55,
+    "industry": "DTC",
+    "location": "Austin, TX",
+    "website": "https://cleverpets.example",
+    "tech_stack": [
+      "Shopify",
+      "Klaviyo",
+      "GA4"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-06",
+    "notes": "Wants creative testing for UGC assets and cart-abandon retargeting.",
+    "tags": [
+      "UGC",
+      "retargeting",
+      "testing"
+    ]
+  },
+  {
+    "id": 21,
+    "first_name": "Uma",
+    "last_name": "Kapoor",
+    "email": "uma.kapoor@vectorworks.example",
+    "job_title": "Director of Growth",
+    "company": "VectorWorks",
+    "company_size": 1200,
+    "industry": "Manufacturing",
+    "location": "Cleveland, OH",
+    "website": "https://vectorworks.example",
+    "tech_stack": [
+      "HubSpot",
+      "Pardot"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-22",
+    "notes": "Industrial parts; needs lead scoring tied to RFQ submissions and trade publication inventory.",
+    "tags": [
+      "manufacturing",
+      "lead scoring",
+      "B2B"
+    ]
+  },
+  {
+    "id": 22,
+    "first_name": "Victor",
+    "last_name": "Alvarez",
+    "email": "victor.alvarez@altitudefiber.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "Altitude Fiber",
+    "company_size": 2100,
+    "industry": "Telecom",
+    "location": "Phoenix, AZ",
+    "website": "https://altitudefiber.example",
+    "tech_stack": [
+      "GA4",
+      "Tableau",
+      "Salesforce"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-08",
+    "notes": "New markets; wants household targeting by serviceability and churn prediction.",
+    "tags": [
+      "telecom",
+      "churn",
+      "targeting"
+    ]
+  },
+  {
+    "id": 23,
+    "first_name": "Willow",
+    "last_name": "Chen",
+    "email": "willow.chen@brightpath.example",
+    "job_title": "Growth Operations Manager",
+    "company": "BrightPath Tutoring",
+    "company_size": 95,
+    "industry": "Education",
+    "location": "Vancouver, BC",
+    "website": "https://brightpath.example",
+    "tech_stack": [
+      "HubSpot",
+      "Zapier",
+      "Typeform"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-02",
+    "notes": "After-school programs; looking for neighborhood-level targeting and multilingual creatives.",
+    "tags": [
+      "education",
+      "localization",
+      "community"
+    ]
+  },
+  {
+    "id": 24,
+    "first_name": "Xavier",
+    "last_name": "Johnson",
+    "email": "xavier.johnson@clearwaterinsure.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "ClearWater Insurance",
+    "company_size": 4100,
+    "industry": "Insurance",
+    "location": "Columbus, OH",
+    "website": "https://clearwaterinsure.example",
+    "tech_stack": [
+      "GA4",
+      "mParticle",
+      "Looker"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-15",
+    "notes": "Quote-to-bind optimization; wants call analytics and CRM revenue matchback.",
+    "tags": [
+      "insurance",
+      "attribution",
+      "call analytics"
+    ]
+  },
+  {
+    "id": 25,
+    "first_name": "Yara",
+    "last_name": "Abdel",
+    "email": "yara.abdel@orbitalgames.example",
+    "job_title": "Director of User Acquisition",
+    "company": "Orbital Games",
+    "company_size": 560,
+    "industry": "Gaming",
+    "location": "Montreal, QC",
+    "website": "https://orbitalgames.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "GA4",
+      "Firebase"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-05",
+    "notes": "Global UA; needs creative fatigue detection and LTV-based bidding.",
+    "tags": [
+      "gaming",
+      "LTV",
+      "creative"
+    ]
+  },
+  {
+    "id": 26,
+    "first_name": "Zane",
+    "last_name": "Romero",
+    "email": "zane.romero@pacificrides.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "Pacific Rides",
+    "company_size": 420,
+    "industry": "Automotive",
+    "location": "San Diego, CA",
+    "website": "https://pacificrides.example",
+    "tech_stack": [
+      "Marketo",
+      "Salesforce"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-29",
+    "notes": "Dealer network; wants VIN-level retargeting and footfall attribution.",
+    "tags": [
+      "auto",
+      "retargeting",
+      "footfall"
+    ]
+  },
+  {
+    "id": 27,
+    "first_name": "Ana",
+    "last_name": "Sousa",
+    "email": "ana.sousa@atlanticair.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "AtlanticAir",
+    "company_size": 7000,
+    "industry": "Airlines",
+    "location": "Lisbon, PT",
+    "website": "https://atlanticair.example",
+    "tech_stack": [
+      "Adobe Analytics",
+      "Tealium",
+      "GA4"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-17",
+    "notes": "Flight search retargeting; wants fare-class audiences and real-time price feed integrations.",
+    "tags": [
+      "airlines",
+      "retargeting",
+      "real-time"
+    ]
+  },
+  {
+    "id": 28,
+    "first_name": "Briana",
+    "last_name": "Lee",
+    "email": "briana.lee@civicworks.example",
+    "job_title": "Director of Communications",
+    "company": "CivicWorks",
+    "company_size": 65,
+    "industry": "Nonprofit",
+    "location": "Washington, DC",
+    "website": "https://civicworks.example",
+    "tech_stack": [
+      "Mailchimp",
+      "Airtable"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-31",
+    "notes": "Fundraising campaigns; needs donor lookalikes and contextual targeting around civic topics.",
+    "tags": [
+      "nonprofit",
+      "contextual",
+      "donors"
+    ]
+  },
+  {
+    "id": 29,
+    "first_name": "Hazel",
+    "last_name": "Patel",
+    "email": "hazel.patel@apexworks.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "ApexWorks",
+    "company_size": 1200,
+    "industry": "Education",
+    "location": "Berlin, DE",
+    "website": "https://apexworks.example",
+    "tech_stack": [
+      "Snowflake",
+      "Tealium",
+      "DBT",
+      "Amplitude"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-07-30",
+    "notes": "Wants call tracking integration and territory routing.",
+    "tags": [
+      "LTV",
+      "routing"
+    ]
+  },
+  {
+    "id": 30,
+    "first_name": "Wes",
+    "last_name": "Okafor",
+    "email": "wes.okafor@brightpathlabs.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "BrightPathLabs",
+    "company_size": 1400,
+    "industry": "Telecom",
+    "location": "Vancouver, BC",
+    "website": "https://brightpathlabs.example",
+    "tech_stack": [
+      "mParticle",
+      "Salesforce",
+      "Slate"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-30",
+    "notes": "Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "incrementality",
+      "routing",
+      "attribution"
+    ]
+  },
+  {
+    "id": 31,
+    "first_name": "Noah",
+    "last_name": "Santos",
+    "email": "noah.santos@nimbusgames.example",
+    "job_title": "Growth Lead",
+    "company": "NimbusGames",
+    "company_size": 1400,
+    "industry": "AI/ML",
+    "location": "Toronto, ON",
+    "website": "https://nimbusgames.example",
+    "tech_stack": [
+      "Looker",
+      "Slate",
+      "Segment"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-26",
+    "notes": "Wants clean-room integrations and offline matchback. Focus on ROAS and signal loss mitigation post-cookie. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "finance",
+      "lead scoring",
+      "ABM"
+    ]
+  },
+  {
+    "id": 32,
+    "first_name": "Owen",
+    "last_name": "Hossain",
+    "email": "owen.hossain@fusionhealth.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "FusionHealth",
+    "company_size": 520,
+    "industry": "Education",
+    "location": "Tokyo, JP",
+    "website": "https://fusionhealth.example",
+    "tech_stack": [
+      "Google Ads",
+      "Firebase",
+      "Tableau"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-30",
+    "notes": "Geofencing and lookalike modeling around key sites. Exploring LTV-based bidding and fraud mitigation. Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "mobile",
+      "ABM"
+    ]
+  },
+  {
+    "id": 33,
+    "first_name": "Jon",
+    "last_name": "Kim",
+    "email": "jon.kim@pillarsystems.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "PillarSystems",
+    "company_size": 260,
+    "industry": "CPG",
+    "location": "Minneapolis, MN",
+    "website": "https://pillarsystems.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "Google Ads"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-15",
+    "notes": "Prefers lightweight SDKs and short implementation time. Testing incrementality and MMM readiness. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "attribution",
+      "tracking",
+      "routing",
+      "SKAN"
+    ]
+  },
+  {
+    "id": 34,
+    "first_name": "Ben",
+    "last_name": "Romero",
+    "email": "ben.romero@apexagro.example",
+    "job_title": "Head of Lifecycle Marketing",
+    "company": "ApexAgro",
+    "company_size": 2200,
+    "industry": "Gaming",
+    "location": "Tokyo, JP",
+    "website": "https://apexagro.example",
+    "tech_stack": [
+      "Gong",
+      "DBT"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-19",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "ABM",
+      "brand safety",
+      "APAC"
+    ]
+  },
+  {
+    "id": 35,
+    "first_name": "Ben",
+    "last_name": "Fischer",
+    "email": "ben.fischer@pillarnetworks.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "PillarNetworks",
+    "company_size": 5200,
+    "industry": "Manufacturing",
+    "location": "Dallas, TX",
+    "website": "https://pillarnetworks.example",
+    "tech_stack": [
+      "Firebase",
+      "Airtable",
+      "Amplitude",
+      "Braze",
+      "AppsFlyer"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-11",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Testing incrementality and MMM readiness.",
+    "tags": [
+      "SDK",
+      "gaming"
+    ]
+  },
+  {
+    "id": 36,
+    "first_name": "Hanna",
+    "last_name": "Lopez",
+    "email": "hanna.lopez@orbitanalytics.example",
+    "job_title": "Director, Media Strategy",
+    "company": "OrbitAnalytics",
+    "company_size": 4100,
+    "industry": "CPG",
+    "location": "Minneapolis, MN",
+    "website": "https://orbitanalytics.example",
+    "tech_stack": [
+      "Snowflake",
+      "BigQuery",
+      "Asana",
+      "Amplitude",
+      "PowerBI"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-22",
+    "notes": "Looking for multilingual creatives and localization.",
+    "tags": [
+      "community",
+      "retail media",
+      "CTV"
+    ]
+  },
+  {
+    "id": 37,
+    "first_name": "Jon",
+    "last_name": "Kim",
+    "email": "jon.kim@everfreshworks.example",
+    "job_title": "VP of Marketing",
+    "company": "EverFreshWorks",
+    "company_size": 120,
+    "industry": "Mobility",
+    "location": "Seattle, WA",
+    "website": "https://everfreshworks.example",
+    "tech_stack": [
+      "BigQuery",
+      "Asana",
+      "Amplitude",
+      "NielsenIQ"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-25",
+    "notes": "Wants call tracking integration and territory routing. Needs HIPAA-compliant workflows and data governance. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "logistics",
+      "privacy",
+      "UGC"
+    ]
+  },
+  {
+    "id": 38,
+    "first_name": "Talia",
+    "last_name": "Davis",
+    "email": "talia.davis@clearskysolutions.example",
+    "job_title": "Brand Director",
+    "company": "ClearSkySolutions",
+    "company_size": 120,
+    "industry": "Education",
+    "location": "Toronto, ON",
+    "website": "https://clearskysolutions.example",
+    "tech_stack": [
+      "Marketo",
+      "Gong"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-05",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Wants call tracking integration and territory routing.",
+    "tags": [
+      "mobile",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 39,
+    "first_name": "Diego",
+    "last_name": "Okafor",
+    "email": "diego.okafor@nextpeaksoft.example",
+    "job_title": "Director, Digital Acquisition",
+    "company": "NextPeakSoft",
+    "company_size": 2100,
+    "industry": "Pharma",
+    "location": "Atlanta, GA",
+    "website": "https://nextpeaksoft.example",
+    "tech_stack": [
+      "NielsenIQ",
+      "Tealium",
+      "Google Ads",
+      "Gong"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-09-21",
+    "notes": "Needs deduped reach and brand safety controls. Targeting expansion into new markets this quarter. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "UGC",
+      "brand safety",
+      "education",
+      "geofencing"
+    ]
+  },
+  {
+    "id": 40,
+    "first_name": "Victor",
+    "last_name": "Khan",
+    "email": "victor.khan@civicdigital.example",
+    "job_title": "Growth Lead",
+    "company": "CivicDigital",
+    "company_size": 450,
+    "industry": "Cybersecurity",
+    "location": "Lisbon, PT",
+    "website": "https://civicdigital.example",
+    "tech_stack": [
+      "Marketo",
+      "Mixpanel",
+      "DBT"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-09-07",
+    "notes": "Geofencing and lookalike modeling around key sites. Exploring LTV-based bidding and fraud mitigation. Targeting expansion into new markets this quarter.",
+    "tags": [
+      "brand safety",
+      "CTV",
+      "RAG",
+      "geofencing"
+    ]
+  },
+  {
+    "id": 41,
+    "first_name": "Kei",
+    "last_name": "Smith",
+    "email": "kei.smith@blueharborsoft.example",
+    "job_title": "Brand Director",
+    "company": "BlueHarborSoft",
+    "company_size": 800,
+    "industry": "Retail",
+    "location": "Minneapolis, MN",
+    "website": "https://blueharborsoft.example",
+    "tech_stack": [
+      "PowerBI",
+      "Google Ads",
+      "DBT"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-01",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Interested in retail media pilots and privacy-safe audiences. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "retail media",
+      "community"
+    ]
+  },
+  {
+    "id": 42,
+    "first_name": "Leah",
+    "last_name": "Hossain",
+    "email": "leah.hossain@cleverenterprises.example",
+    "job_title": "Director, Growth Operations",
+    "company": "CleverEnterprises",
+    "company_size": 410,
+    "industry": "Manufacturing",
+    "location": "Dublin, IE",
+    "website": "https://cleverenterprises.example",
+    "tech_stack": [
+      "GA4",
+      "PowerBI"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-09",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "RAG",
+      "APAC",
+      "offline"
+    ]
+  },
+  {
+    "id": 43,
+    "first_name": "Hazel",
+    "last_name": "Hossain",
+    "email": "hazel.hossain@atlanticmobility.example",
+    "job_title": "Director of Growth",
+    "company": "AtlanticMobility",
+    "company_size": 800,
+    "industry": "Cybersecurity",
+    "location": "Dublin, IE",
+    "website": "https://atlanticmobility.example",
+    "tech_stack": [
+      "Tealium",
+      "AppsFlyer",
+      "Tableau"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-17",
+    "notes": "Testing incrementality and MMM readiness. Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "localization",
+      "incrementality",
+      "logistics",
+      "ABM"
+    ]
+  },
+  {
+    "id": 44,
+    "first_name": "Ava",
+    "last_name": "Okafor",
+    "email": "ava.okafor@atlanticrides.example",
+    "job_title": "VP of Marketing",
+    "company": "AtlanticRides",
+    "company_size": 35,
+    "industry": "Government",
+    "location": "Sydney, AU",
+    "website": "https://atlanticrides.example",
+    "tech_stack": [
+      "Tealium",
+      "mParticle"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-03",
+    "notes": "Prefers lightweight SDKs and short implementation time. Wants call tracking integration and territory routing.",
+    "tags": [
+      "APAC",
+      "manufacturing",
+      "UGC",
+      "tracking"
+    ]
+  },
+  {
+    "id": 45,
+    "first_name": "Hanna",
+    "last_name": "Kowalski",
+    "email": "hanna.kowalski@apexhealth.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "ApexHealth",
+    "company_size": 380,
+    "industry": "Insurance",
+    "location": "London, UK",
+    "website": "https://apexhealth.example",
+    "tech_stack": [
+      "NielsenIQ",
+      "Klaviyo",
+      "GA4",
+      "BigQuery"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-13",
+    "notes": "Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "RAG",
+      "retail media",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 46,
+    "first_name": "Vera",
+    "last_name": "Ramos",
+    "email": "vera.ramos@fusionmobility.example",
+    "job_title": "Director, Digital Acquisition",
+    "company": "FusionMobility",
+    "company_size": 35,
+    "industry": "Real Estate",
+    "location": "Dublin, IE",
+    "website": "https://fusionmobility.example",
+    "tech_stack": [
+      "Google Ads",
+      "Gong"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-29",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "fraud",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 47,
+    "first_name": "Owen",
+    "last_name": "Alvarez",
+    "email": "owen.alvarez@cleverpartners.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "CleverPartners",
+    "company_size": 450,
+    "industry": "Healthcare",
+    "location": "Chicago, IL",
+    "website": "https://cleverpartners.example",
+    "tech_stack": [
+      "Segment",
+      "Slate",
+      "Klaviyo",
+      "Amplitude"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-21",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "attribution",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 48,
+    "first_name": "Zane",
+    "last_name": "Johnson",
+    "email": "zane.johnson@primewavefinance.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "PrimeWaveFinance",
+    "company_size": 3300,
+    "industry": "CPG",
+    "location": "Los Angeles, CA",
+    "website": "https://primewavefinance.example",
+    "tech_stack": [
+      "Firebase",
+      "Mixpanel"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-25",
+    "notes": "Evaluating programmatic partners; needs ABM at scale. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "routing",
+      "lead scoring"
+    ]
+  },
+  {
+    "id": 49,
+    "first_name": "Vera",
+    "last_name": "Ishikawa",
+    "email": "vera.ishikawa@summitholdings.example",
+    "job_title": "Director of Analytics",
+    "company": "SummitHoldings",
+    "company_size": 5200,
+    "industry": "SaaS",
+    "location": "London, UK",
+    "website": "https://summitholdings.example",
+    "tech_stack": [
+      "BigQuery",
+      "Firebase",
+      "Looker",
+      "Segment"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-21",
+    "notes": "Considering dynamic creative optimization and feeds. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "manufacturing",
+      "mobile",
+      "HIPAA"
+    ]
+  },
+  {
+    "id": 50,
+    "first_name": "Evan",
+    "last_name": "Young",
+    "email": "evan.young@zenithpartners.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "ZenithPartners",
+    "company_size": 3300,
+    "industry": "Travel",
+    "location": "Vancouver, BC",
+    "website": "https://zenithpartners.example",
+    "tech_stack": [
+      "Looker",
+      "Segment"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-10",
+    "notes": "Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "seasonality",
+      "clean room"
+    ]
+  },
+  {
+    "id": 51,
+    "first_name": "Milo",
+    "last_name": "Clark",
+    "email": "milo.clark@auroragrocers.example",
+    "job_title": "Director, Media Strategy",
+    "company": "AuroraGrocers",
+    "company_size": 5200,
+    "industry": "Real Estate",
+    "location": "Austin, TX",
+    "website": "https://auroragrocers.example",
+    "tech_stack": [
+      "Marketo",
+      "Tableau",
+      "Gong",
+      "DBT",
+      "Salesforce"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-11",
+    "notes": "Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "fraud",
+      "lookalikes",
+      "LTV"
+    ]
+  },
+  {
+    "id": 52,
+    "first_name": "Vera",
+    "last_name": "Kapoor",
+    "email": "vera.kapoor@alpendynamics.example",
+    "job_title": "Director, Partnerships",
+    "company": "AlpenDynamics",
+    "company_size": 900,
+    "industry": "Media & Entertainment",
+    "location": "Montreal, QC",
+    "website": "https://alpendynamics.example",
+    "tech_stack": [
+      "Snowflake",
+      "Gong",
+      "Zapier",
+      "GA4"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-06",
+    "notes": "Considering dynamic creative optimization and feeds. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "incrementality",
+      "attribution",
+      "fraud"
+    ]
+  },
+  {
+    "id": 53,
+    "first_name": "Leah",
+    "last_name": "Ishikawa",
+    "email": "leah.ishikawa@blueharborclinic.example",
+    "job_title": "Director of Product Marketing",
+    "company": "BlueHarborClinic",
+    "company_size": 1400,
+    "industry": "Retail",
+    "location": "Lisbon, PT",
+    "website": "https://blueharborclinic.example",
+    "tech_stack": [
+      "DBT",
+      "PowerBI",
+      "Marketo",
+      "6sense",
+      "Klaviyo"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-24",
+    "notes": "Looking for multilingual creatives and localization. Interested in retail media pilots and privacy-safe audiences. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "SDK",
+      "seasonality",
+      "mobile",
+      "geofencing"
+    ]
+  },
+  {
+    "id": 54,
+    "first_name": "Uma",
+    "last_name": "Smith",
+    "email": "uma.smith@vectoragro.example",
+    "job_title": "Director, Growth Operations",
+    "company": "VectorAgro",
+    "company_size": 80,
+    "industry": "Financial Services",
+    "location": "Minneapolis, MN",
+    "website": "https://vectoragro.example",
+    "tech_stack": [
+      "Klaviyo",
+      "GA4",
+      "DBT"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-12",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "UGC",
+      "SKAN",
+      "retail media",
+      "privacy"
+    ]
+  },
+  {
+    "id": 55,
+    "first_name": "Hazel",
+    "last_name": "Khan",
+    "email": "hazel.khan@clearwaterfoods.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "ClearWaterFoods",
+    "company_size": 120,
+    "industry": "AgTech",
+    "location": "Seattle, WA",
+    "website": "https://clearwaterfoods.example",
+    "tech_stack": [
+      "Google Ads",
+      "NielsenIQ"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-16",
+    "notes": "Looking for multilingual creatives and localization. Evaluating programmatic partners; needs ABM at scale. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "gaming",
+      "SDK",
+      "offline",
+      "routing"
+    ]
+  },
+  {
+    "id": 56,
+    "first_name": "Vera",
+    "last_name": "Lee",
+    "email": "vera.lee@pacificgroup.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "PacificGroup",
+    "company_size": 2100,
+    "industry": "Nonprofit",
+    "location": "Atlanta, GA",
+    "website": "https://pacificgroup.example",
+    "tech_stack": [
+      "mParticle",
+      "Firebase",
+      "Google Ads",
+      "Tableau",
+      "Looker"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-07-28",
+    "notes": "Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "LTV",
+      "offline"
+    ]
+  },
+  {
+    "id": 57,
+    "first_name": "Yara",
+    "last_name": "Rossi",
+    "email": "yara.rossi@lumenbank.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "LumenBank",
+    "company_size": 1200,
+    "industry": "Government",
+    "location": "Toronto, ON",
+    "website": "https://lumenbank.example",
+    "tech_stack": [
+      "Looker",
+      "mParticle",
+      "Zapier",
+      "Klaviyo"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-08",
+    "notes": "Interested in retail media pilots and privacy-safe audiences. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "APAC",
+      "CTV",
+      "gaming",
+      "fraud"
+    ]
+  },
+  {
+    "id": 58,
+    "first_name": "Zane",
+    "last_name": "Lopez",
+    "email": "zane.lopez@cascadeclinic.example",
+    "job_title": "Director, Digital Acquisition",
+    "company": "CascadeClinic",
+    "company_size": 380,
+    "industry": "Automotive",
+    "location": "Miami, FL",
+    "website": "https://cascadeclinic.example",
+    "tech_stack": [
+      "GA4",
+      "NielsenIQ",
+      "Snowflake",
+      "Segment",
+      "Metabase"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-06",
+    "notes": "Geofencing and lookalike modeling around key sites. Evaluating programmatic partners; needs ABM at scale. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "lead scoring",
+      "finance",
+      "brand safety"
+    ]
+  },
+  {
+    "id": 59,
+    "first_name": "Priya",
+    "last_name": "Kim",
+    "email": "priya.kim@vectorholdings.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "VectorHoldings",
+    "company_size": 800,
+    "industry": "Healthcare",
+    "location": "San Francisco, CA",
+    "website": "https://vectorholdings.example",
+    "tech_stack": [
+      "Asana",
+      "Marketo",
+      "Amplitude",
+      "Looker",
+      "NielsenIQ"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-25",
+    "notes": "Seasonal campaigns with weather-triggered logic. Looking for multilingual creatives and localization.",
+    "tags": [
+      "RAG",
+      "education",
+      "localization",
+      "SDK"
+    ]
+  },
+  {
+    "id": 60,
+    "first_name": "Pia",
+    "last_name": "Wong",
+    "email": "pia.wong@greengridmedia.example",
+    "job_title": "Director of CRM & Loyalty",
+    "company": "GreenGridMedia",
+    "company_size": 5200,
+    "industry": "HR Tech",
+    "location": "London, UK",
+    "website": "https://greengridmedia.example",
+    "tech_stack": [
+      "6sense",
+      "Firebase",
+      "Tealium",
+      "Metabase"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-15",
+    "notes": "Testing incrementality and MMM readiness. Wants call tracking integration and territory routing. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "offline",
+      "tracking"
+    ]
+  },
+  {
+    "id": 61,
+    "first_name": "Zane",
+    "last_name": "Bianchi",
+    "email": "zane.bianchi@radiantinsurance.example",
+    "job_title": "Director of CRM & Loyalty",
+    "company": "RadiantInsurance",
+    "company_size": 5200,
+    "industry": "Media & Entertainment",
+    "location": "Phoenix, AZ",
+    "website": "https://radiantinsurance.example",
+    "tech_stack": [
+      "Segment",
+      "DBT"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-21",
+    "notes": "Geofencing and lookalike modeling around key sites. Considering dynamic creative optimization and feeds. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "APAC",
+      "HIPAA",
+      "localization",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 62,
+    "first_name": "Owen",
+    "last_name": "Ivanov",
+    "email": "owen.ivanov@harborinsurance.example",
+    "job_title": "VP of Marketing",
+    "company": "HarborInsurance",
+    "company_size": 410,
+    "industry": "Pharma",
+    "location": "Columbus, OH",
+    "website": "https://harborinsurance.example",
+    "tech_stack": [
+      "Marketo",
+      "Klaviyo"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-07",
+    "notes": "Targeting expansion into new markets this quarter.",
+    "tags": [
+      "UGC",
+      "education",
+      "HIPAA",
+      "LTV"
+    ]
+  },
+  {
+    "id": 63,
+    "first_name": "Leah",
+    "last_name": "Hossain",
+    "email": "leah.hossain@hanaholdings.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "HanaHoldings",
+    "company_size": 410,
+    "industry": "Education",
+    "location": "Austin, TX",
+    "website": "https://hanaholdings.example",
+    "tech_stack": [
+      "Airtable",
+      "Asana",
+      "Google Ads",
+      "BigQuery",
+      "Tealium"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-07",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "routing",
+      "SDK",
+      "LTV"
+    ]
+  },
+  {
+    "id": 64,
+    "first_name": "Sami",
+    "last_name": "Nakamura",
+    "email": "sami.nakamura@apexbank.example",
+    "job_title": "Product Marketing Manager",
+    "company": "ApexBank",
+    "company_size": 8900,
+    "industry": "Nonprofit",
+    "location": "Denver, CO",
+    "website": "https://apexbank.example",
+    "tech_stack": [
+      "Amplitude",
+      "GA4",
+      "Klaviyo",
+      "Tableau",
+      "Marketo"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-08",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "incrementality",
+      "ROAS",
+      "seasonality"
+    ]
+  },
+  {
+    "id": 65,
+    "first_name": "Uma",
+    "last_name": "Allen",
+    "email": "uma.allen@clearwatersystems.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "ClearWaterSystems",
+    "company_size": 3300,
+    "industry": "Education",
+    "location": "Austin, TX",
+    "website": "https://clearwatersystems.example",
+    "tech_stack": [
+      "GA4",
+      "Salesforce",
+      "HubSpot",
+      "PowerBI",
+      "Tableau"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-22",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "clean room",
+      "enrichment",
+      "manufacturing",
+      "HIPAA"
+    ]
+  },
+  {
+    "id": 66,
+    "first_name": "Uri",
+    "last_name": "Alvarez",
+    "email": "uri.alvarez@novaagro.example",
+    "job_title": "Brand Director",
+    "company": "NovaAgro",
+    "company_size": 3300,
+    "industry": "Retail",
+    "location": "Atlanta, GA",
+    "website": "https://novaagro.example",
+    "tech_stack": [
+      "Firebase",
+      "NielsenIQ"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-17",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "community",
+      "SDK"
+    ]
+  },
+  {
+    "id": 67,
+    "first_name": "Zane",
+    "last_name": "Reed",
+    "email": "zane.reed@novagames.example",
+    "job_title": "Marketing Manager",
+    "company": "NovaGames",
+    "company_size": 1200,
+    "industry": "Ecommerce",
+    "location": "Montreal, QC",
+    "website": "https://novagames.example",
+    "tech_stack": [
+      "Slate",
+      "Tealium",
+      "Marketo",
+      "Zapier",
+      "Firebase"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-17",
+    "notes": "Looking for multilingual creatives and localization. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "manufacturing",
+      "HIPAA",
+      "finance"
+    ]
+  },
+  {
+    "id": 68,
+    "first_name": "Owen",
+    "last_name": "Lee",
+    "email": "owen.lee@alpenmobility.example",
+    "job_title": "Brand Director",
+    "company": "AlpenMobility",
+    "company_size": 410,
+    "industry": "Insurance",
+    "location": "Seattle, WA",
+    "website": "https://alpenmobility.example",
+    "tech_stack": [
+      "Google Ads",
+      "6sense",
+      "Tableau",
+      "Asana"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-05",
+    "notes": "Needs deduped reach and brand safety controls.",
+    "tags": [
+      "SKAN",
+      "RAG"
+    ]
+  },
+  {
+    "id": 69,
+    "first_name": "Ben",
+    "last_name": "Bauer",
+    "email": "ben.bauer@starlinelabs.example",
+    "job_title": "Marketing Manager",
+    "company": "StarlineLabs",
+    "company_size": 310,
+    "industry": "Education",
+    "location": "San Francisco, CA",
+    "website": "https://starlinelabs.example",
+    "tech_stack": [
+      "Gong",
+      "Salesforce",
+      "Firebase",
+      "NielsenIQ"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-09-01",
+    "notes": "Evaluating programmatic partners; needs ABM at scale. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "clean room",
+      "offline",
+      "routing",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 70,
+    "first_name": "Hanna",
+    "last_name": "Brown",
+    "email": "hanna.brown@altitudegrocers.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "AltitudeGrocers",
+    "company_size": 8900,
+    "industry": "Travel",
+    "location": "Phoenix, AZ",
+    "website": "https://altitudegrocers.example",
+    "tech_stack": [
+      "Klaviyo",
+      "GA4",
+      "Tealium",
+      "Airtable",
+      "Braze"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-08",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "incrementality",
+      "lookalikes",
+      "SDK"
+    ]
+  },
+  {
+    "id": 71,
+    "first_name": "Nina",
+    "last_name": "Allen",
+    "email": "nina.allen@nimbusclinic.example",
+    "job_title": "Director of Growth",
+    "company": "NimbusClinic",
+    "company_size": 1200,
+    "industry": "Retail",
+    "location": "Paris, FR",
+    "website": "https://nimbusclinic.example",
+    "tech_stack": [
+      "Tableau",
+      "HubSpot"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-14",
+    "notes": "Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "SDK",
+      "mobile",
+      "HIPAA",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 72,
+    "first_name": "Fatima",
+    "last_name": "Singh",
+    "email": "fatima.singh@monarchuniversity.example",
+    "job_title": "Director, Growth Operations",
+    "company": "MonarchUniversity",
+    "company_size": 900,
+    "industry": "Insurance",
+    "location": "Los Angeles, CA",
+    "website": "https://monarchuniversity.example",
+    "tech_stack": [
+      "Airtable",
+      "Asana",
+      "Tealium"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-23",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "logistics",
+      "manufacturing",
+      "UGC",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 73,
+    "first_name": "Marta",
+    "last_name": "Haddad",
+    "email": "marta.haddad@vertexfiber.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "VertexFiber",
+    "company_size": 3300,
+    "industry": "Gaming",
+    "location": "Phoenix, AZ",
+    "website": "https://vertexfiber.example",
+    "tech_stack": [
+      "NielsenIQ",
+      "Snowflake",
+      "PowerBI"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-10",
+    "notes": "Wants call tracking integration and territory routing. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "manufacturing",
+      "routing",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 74,
+    "first_name": "Wes",
+    "last_name": "Ramos",
+    "email": "wes.ramos@hanagroup.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "HanaGroup",
+    "company_size": 260,
+    "industry": "Automotive",
+    "location": "Dallas, TX",
+    "website": "https://hanagroup.example",
+    "tech_stack": [
+      "Braze",
+      "Slate",
+      "Firebase"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-10",
+    "notes": "Interested in retail media pilots and privacy-safe audiences. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "clean room",
+      "CTV"
+    ]
+  },
+  {
+    "id": 75,
+    "first_name": "Nina",
+    "last_name": "Smith",
+    "email": "nina.smith@blueriverhealth.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "BlueRiverHealth",
+    "company_size": 7000,
+    "industry": "HR Tech",
+    "location": "Chicago, IL",
+    "website": "https://blueriverhealth.example",
+    "tech_stack": [
+      "HubSpot",
+      "DBT"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-07-29",
+    "notes": "Targeting expansion into new markets this quarter. Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "clean room",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 76,
+    "first_name": "Samir",
+    "last_name": "Tan",
+    "email": "samir.tan@terrabank.example",
+    "job_title": "Director of Analytics",
+    "company": "TerraBank",
+    "company_size": 4100,
+    "industry": "Pharma",
+    "location": "San Francisco, CA",
+    "website": "https://terrabank.example",
+    "tech_stack": [
+      "PowerBI",
+      "Airtable"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-22",
+    "notes": "Wants call tracking integration and territory routing. Targeting expansion into new markets this quarter.",
+    "tags": [
+      "localization",
+      "mobile"
+    ]
+  },
+  {
+    "id": 77,
+    "first_name": "Yara",
+    "last_name": "Haddad",
+    "email": "yara.haddad@primewavegrocers.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "PrimeWaveGrocers",
+    "company_size": 3300,
+    "industry": "Manufacturing",
+    "location": "Singapore, SG",
+    "website": "https://primewavegrocers.example",
+    "tech_stack": [
+      "PowerBI",
+      "Metabase",
+      "Salesforce",
+      "Tableau",
+      "GA4"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-07-28",
+    "notes": "Targeting expansion into new markets this quarter. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "geofencing",
+      "lookalikes",
+      "enrichment",
+      "gaming"
+    ]
+  },
+  {
+    "id": 78,
+    "first_name": "Owen",
+    "last_name": "Bianchi",
+    "email": "owen.bianchi@orbitalgrocers.example",
+    "job_title": "Head of Lifecycle Marketing",
+    "company": "OrbitalGrocers",
+    "company_size": 310,
+    "industry": "Nonprofit",
+    "location": "Chicago, IL",
+    "website": "https://orbitalgrocers.example",
+    "tech_stack": [
+      "Tableau",
+      "Klaviyo",
+      "Metabase"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-06",
+    "notes": "Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "incrementality",
+      "logistics",
+      "CTV"
+    ]
+  },
+  {
+    "id": 79,
+    "first_name": "Lina",
+    "last_name": "Reed",
+    "email": "lina.reed@skylineenergy.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "SkylineEnergy",
+    "company_size": 5200,
+    "industry": "CPG",
+    "location": "Dublin, IE",
+    "website": "https://skylineenergy.example",
+    "tech_stack": [
+      "DBT",
+      "NielsenIQ",
+      "Metabase",
+      "Salesforce",
+      "HubSpot"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-20",
+    "notes": "Targeting expansion into new markets this quarter.",
+    "tags": [
+      "fraud",
+      "privacy",
+      "lookalikes",
+      "brand safety"
+    ]
+  },
+  {
+    "id": 80,
+    "first_name": "Chloe",
+    "last_name": "Park",
+    "email": "chloe.park@orbitalhcm.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "OrbitalHCM",
+    "company_size": 380,
+    "industry": "Travel",
+    "location": "New York, NY",
+    "website": "https://orbitalhcm.example",
+    "tech_stack": [
+      "BigQuery",
+      "Mixpanel",
+      "Firebase",
+      "GA4"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-03",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Testing incrementality and MMM readiness.",
+    "tags": [
+      "clean room",
+      "logistics",
+      "routing"
+    ]
+  },
+  {
+    "id": 81,
+    "first_name": "Talia",
+    "last_name": "Patel",
+    "email": "talia.patel@apexenergy.example",
+    "job_title": "Director of Analytics",
+    "company": "ApexEnergy",
+    "company_size": 310,
+    "industry": "Financial Services",
+    "location": "Atlanta, GA",
+    "website": "https://apexenergy.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "Asana",
+      "Amplitude",
+      "Firebase",
+      "PowerBI"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-21",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "retail media",
+      "localization"
+    ]
+  },
+  {
+    "id": 82,
+    "first_name": "Quinn",
+    "last_name": "Tan",
+    "email": "quinn.tan@cleversystems.example",
+    "job_title": "Director, Media Strategy",
+    "company": "CleverSystems",
+    "company_size": 260,
+    "industry": "Real Estate",
+    "location": "London, UK",
+    "website": "https://cleversystems.example",
+    "tech_stack": [
+      "Metabase",
+      "Slate",
+      "Asana",
+      "Gong",
+      "Tableau"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-12",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Prefers lightweight SDKs and short implementation time. Looking for multilingual creatives and localization.",
+    "tags": [
+      "seasonality",
+      "ROAS"
+    ]
+  },
+  {
+    "id": 83,
+    "first_name": "Ben",
+    "last_name": "Chen",
+    "email": "ben.chen@apexenergy.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "ApexEnergy",
+    "company_size": 35,
+    "industry": "Manufacturing",
+    "location": "Tokyo, JP",
+    "website": "https://apexenergy.example",
+    "tech_stack": [
+      "Slate",
+      "Segment",
+      "Asana",
+      "Firebase"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-03",
+    "notes": "Targeting expansion into new markets this quarter.",
+    "tags": [
+      "HIPAA",
+      "incrementality",
+      "SKAN",
+      "tracking"
+    ]
+  },
+  {
+    "id": 84,
+    "first_name": "Yara",
+    "last_name": "Hernandez",
+    "email": "yara.hernandez@pillarretail.example",
+    "job_title": "Marketing Manager",
+    "company": "PillarRetail",
+    "company_size": 260,
+    "industry": "Media & Entertainment",
+    "location": "Vancouver, BC",
+    "website": "https://pillarretail.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "Amplitude",
+      "Asana",
+      "Segment"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-29",
+    "notes": "Seasonal campaigns with weather-triggered logic. Testing incrementality and MMM readiness.",
+    "tags": [
+      "routing",
+      "enrichment",
+      "attribution"
+    ]
+  },
+  {
+    "id": 85,
+    "first_name": "Farah",
+    "last_name": "Garcia",
+    "email": "farah.garcia@summitagro.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "SummitAgro",
+    "company_size": 260,
+    "industry": "Financial Services",
+    "location": "London, UK",
+    "website": "https://summitagro.example",
+    "tech_stack": [
+      "Snowflake",
+      "PowerBI",
+      "Salesforce",
+      "6sense"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-26",
+    "notes": "Testing incrementality and MMM readiness. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "enrichment",
+      "ROAS",
+      "RAG",
+      "fraud"
+    ]
+  },
+  {
+    "id": 86,
+    "first_name": "Reed",
+    "last_name": "Kannan",
+    "email": "reed.kannan@blueriverfinance.example",
+    "job_title": "Product Marketing Manager",
+    "company": "BlueRiverFinance",
+    "company_size": 640,
+    "industry": "Travel",
+    "location": "Sydney, AU",
+    "website": "https://blueriverfinance.example",
+    "tech_stack": [
+      "Firebase",
+      "Tealium",
+      "Zapier",
+      "Snowflake"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-15",
+    "notes": "Geofencing and lookalike modeling around key sites. Seasonal campaigns with weather-triggered logic. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "retail media",
+      "SDK",
+      "fraud",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 87,
+    "first_name": "Gio",
+    "last_name": "Tan",
+    "email": "gio.tan@silveroakclinic.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "SilverOakClinic",
+    "company_size": 7000,
+    "industry": "Cybersecurity",
+    "location": "Singapore, SG",
+    "website": "https://silveroakclinic.example",
+    "tech_stack": [
+      "Snowflake",
+      "Slate"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-17",
+    "notes": "Exploring LTV-based bidding and fraud mitigation. Targeting expansion into new markets this quarter. Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "SKAN",
+      "SDK",
+      "routing",
+      "clean room"
+    ]
+  },
+  {
+    "id": 88,
+    "first_name": "Yara",
+    "last_name": "Patel",
+    "email": "yara.patel@quantumfinance.example",
+    "job_title": "Director of Growth",
+    "company": "QuantumFinance",
+    "company_size": 1400,
+    "industry": "Automotive",
+    "location": "Los Angeles, CA",
+    "website": "https://quantumfinance.example",
+    "tech_stack": [
+      "Marketo",
+      "Asana",
+      "Tealium"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-03",
+    "notes": "Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "finance",
+      "lead scoring",
+      "ROAS"
+    ]
+  },
+  {
+    "id": 89,
+    "first_name": "Rina",
+    "last_name": "Ishikawa",
+    "email": "rina.ishikawa@orbitutilities.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "OrbitUtilities",
+    "company_size": 1200,
+    "industry": "Healthcare",
+    "location": "Phoenix, AZ",
+    "website": "https://orbitutilities.example",
+    "tech_stack": [
+      "Google Ads",
+      "Segment",
+      "Zapier"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-11",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "SDK",
+      "privacy",
+      "gaming"
+    ]
+  },
+  {
+    "id": 90,
+    "first_name": "Wes",
+    "last_name": "M\u00fcller",
+    "email": "wes.m\u00fcller@quantumsoft.example",
+    "job_title": "Director of User Acquisition",
+    "company": "QuantumSoft",
+    "company_size": 3300,
+    "industry": "Financial Services",
+    "location": "Chicago, IL",
+    "website": "https://quantumsoft.example",
+    "tech_stack": [
+      "GA4",
+      "DBT"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-21",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Looking for multilingual creatives and localization. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "CTV",
+      "education",
+      "SKAN"
+    ]
+  },
+  {
+    "id": 91,
+    "first_name": "Quinn",
+    "last_name": "Hernandez",
+    "email": "quinn.hernandez@quantumworks.example",
+    "job_title": "Director, Partnerships",
+    "company": "QuantumWorks",
+    "company_size": 2200,
+    "industry": "Telecom",
+    "location": "Lisbon, PT",
+    "website": "https://quantumworks.example",
+    "tech_stack": [
+      "NielsenIQ",
+      "DBT",
+      "Asana",
+      "mParticle"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-26",
+    "notes": "Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "offline",
+      "lookalikes",
+      "lead scoring",
+      "tracking"
+    ]
+  },
+  {
+    "id": 92,
+    "first_name": "Jon",
+    "last_name": "Johnson",
+    "email": "jon.johnson@pacificbank.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "PacificBank",
+    "company_size": 120,
+    "industry": "Retail",
+    "location": "Columbus, OH",
+    "website": "https://pacificbank.example",
+    "tech_stack": [
+      "mParticle",
+      "NielsenIQ",
+      "Gong",
+      "Marketo",
+      "Snowflake"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-22",
+    "notes": "Considering dynamic creative optimization and feeds. Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "enrichment",
+      "ABM"
+    ]
+  },
+  {
+    "id": 93,
+    "first_name": "Rina",
+    "last_name": "Lee",
+    "email": "rina.lee@summitsystems.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "SummitSystems",
+    "company_size": 2100,
+    "industry": "Insurance",
+    "location": "Tokyo, JP",
+    "website": "https://summitsystems.example",
+    "tech_stack": [
+      "mParticle",
+      "Firebase",
+      "6sense",
+      "DBT",
+      "AppsFlyer"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-18",
+    "notes": "Exploring LTV-based bidding and fraud mitigation. Needs deduped reach and brand safety controls. Looking for multilingual creatives and localization.",
+    "tags": [
+      "localization",
+      "LTV"
+    ]
+  },
+  {
+    "id": 94,
+    "first_name": "Pia",
+    "last_name": "Park",
+    "email": "pia.park@primewaveanalytics.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "PrimeWaveAnalytics",
+    "company_size": 3300,
+    "industry": "Healthcare",
+    "location": "Atlanta, GA",
+    "website": "https://primewaveanalytics.example",
+    "tech_stack": [
+      "Tableau",
+      "Asana",
+      "NielsenIQ"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-20",
+    "notes": "Prefers lightweight SDKs and short implementation time. Focus on ROAS and signal loss mitigation post-cookie. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "clean room",
+      "gaming"
+    ]
+  },
+  {
+    "id": 95,
+    "first_name": "Noah",
+    "last_name": "Martinez",
+    "email": "noah.martinez@orbitsystems.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "OrbitSystems",
+    "company_size": 4100,
+    "industry": "Healthcare",
+    "location": "Boston, MA",
+    "website": "https://orbitsystems.example",
+    "tech_stack": [
+      "Klaviyo",
+      "GA4",
+      "Firebase",
+      "mParticle",
+      "Braze"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-09-04",
+    "notes": "Looking for multilingual creatives and localization. Geofencing and lookalike modeling around key sites. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "manufacturing",
+      "SKAN",
+      "routing",
+      "SDK"
+    ]
+  },
+  {
+    "id": 96,
+    "first_name": "Uri",
+    "last_name": "Haddad",
+    "email": "uri.haddad@primewaveclinic.example",
+    "job_title": "Growth Lead",
+    "company": "PrimeWaveClinic",
+    "company_size": 640,
+    "industry": "Gaming",
+    "location": "Seattle, WA",
+    "website": "https://primewaveclinic.example",
+    "tech_stack": [
+      "Mixpanel",
+      "DBT",
+      "Tableau",
+      "GA4"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-05",
+    "notes": "Geofencing and lookalike modeling around key sites. Focus on ROAS and signal loss mitigation post-cookie. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "education",
+      "routing",
+      "attribution"
+    ]
+  },
+  {
+    "id": 97,
+    "first_name": "Leah",
+    "last_name": "Wong",
+    "email": "leah.wong@primewavesoft.example",
+    "job_title": "Product Marketing Manager",
+    "company": "PrimeWaveSoft",
+    "company_size": 380,
+    "industry": "Media & Entertainment",
+    "location": "Miami, FL",
+    "website": "https://primewavesoft.example",
+    "tech_stack": [
+      "Tableau",
+      "Tealium",
+      "NielsenIQ"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-28",
+    "notes": "Looking for multilingual creatives and localization.",
+    "tags": [
+      "brand safety",
+      "LTV",
+      "education"
+    ]
+  },
+  {
+    "id": 98,
+    "first_name": "Reed",
+    "last_name": "Bauer",
+    "email": "reed.bauer@zenithdynamics.example",
+    "job_title": "Brand Director",
+    "company": "ZenithDynamics",
+    "company_size": 310,
+    "industry": "Financial Services",
+    "location": "Sydney, AU",
+    "website": "https://zenithdynamics.example",
+    "tech_stack": [
+      "Airtable",
+      "BigQuery"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-19",
+    "notes": "Geofencing and lookalike modeling around key sites. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "localization",
+      "geofencing",
+      "routing",
+      "brand safety"
+    ]
+  },
+  {
+    "id": 99,
+    "first_name": "Noah",
+    "last_name": "Clark",
+    "email": "noah.clark@summitfoods.example",
+    "job_title": "Director of Growth",
+    "company": "SummitFoods",
+    "company_size": 900,
+    "industry": "Utilities",
+    "location": "New York, NY",
+    "website": "https://summitfoods.example",
+    "tech_stack": [
+      "Segment",
+      "Gong",
+      "Slate",
+      "Metabase",
+      "HubSpot"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-07-29",
+    "notes": "Considering dynamic creative optimization and feeds. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "localization",
+      "enrichment",
+      "clean room",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 100,
+    "first_name": "Drew",
+    "last_name": "Romero",
+    "email": "drew.romero@harbormedia.example",
+    "job_title": "Growth Lead",
+    "company": "HarborMedia",
+    "company_size": 8900,
+    "industry": "Financial Services",
+    "location": "London, UK",
+    "website": "https://harbormedia.example",
+    "tech_stack": [
+      "Braze",
+      "Amplitude",
+      "Metabase",
+      "Snowflake",
+      "Gong"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-22",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "clean room",
+      "offline",
+      "ABM"
+    ]
+  },
+  {
+    "id": 101,
+    "first_name": "Cam",
+    "last_name": "Haddad",
+    "email": "cam.haddad@apexholdings.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "ApexHoldings",
+    "company_size": 900,
+    "industry": "Telecom",
+    "location": "Denver, CO",
+    "website": "https://apexholdings.example",
+    "tech_stack": [
+      "Firebase",
+      "Klaviyo",
+      "Tableau",
+      "GA4",
+      "6sense"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-10",
+    "notes": "Wants clean-room integrations and offline matchback. Needs deduped reach and brand safety controls. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "APAC",
+      "mobile",
+      "offline",
+      "fraud"
+    ]
+  },
+  {
+    "id": 102,
+    "first_name": "Zoe",
+    "last_name": "Chen",
+    "email": "zoe.chen@clearwaterpets.example",
+    "job_title": "Director of Product Marketing",
+    "company": "ClearWaterPets",
+    "company_size": 2100,
+    "industry": "Automotive",
+    "location": "London, UK",
+    "website": "https://clearwaterpets.example",
+    "tech_stack": [
+      "Zapier",
+      "Marketo"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-04",
+    "notes": "Wants clean-room integrations and offline matchback. Needs HIPAA-compliant workflows and data governance. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "tracking",
+      "logistics",
+      "SKAN",
+      "RAG"
+    ]
+  },
+  {
+    "id": 103,
+    "first_name": "Wes",
+    "last_name": "Bauer",
+    "email": "wes.bauer@cascadesoft.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "CascadeSoft",
+    "company_size": 4100,
+    "industry": "AI/ML",
+    "location": "New York, NY",
+    "website": "https://cascadesoft.example",
+    "tech_stack": [
+      "Marketo",
+      "Amplitude"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-14",
+    "notes": "Targeting expansion into new markets this quarter. Needs deduped reach and brand safety controls. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "gaming",
+      "offline",
+      "lead scoring"
+    ]
+  },
+  {
+    "id": 104,
+    "first_name": "Avery",
+    "last_name": "Wong",
+    "email": "avery.wong@novauniversity.example",
+    "job_title": "Head of Lifecycle Marketing",
+    "company": "NovaUniversity",
+    "company_size": 640,
+    "industry": "Manufacturing",
+    "location": "Atlanta, GA",
+    "website": "https://novauniversity.example",
+    "tech_stack": [
+      "Google Ads",
+      "Mixpanel",
+      "NielsenIQ"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-13",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Looking for multilingual creatives and localization. Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "finance",
+      "lead scoring",
+      "education"
+    ]
+  },
+  {
+    "id": 105,
+    "first_name": "Leah",
+    "last_name": "Baker",
+    "email": "leah.baker@quantumdigital.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "QuantumDigital",
+    "company_size": 380,
+    "industry": "AI/ML",
+    "location": "Phoenix, AZ",
+    "website": "https://quantumdigital.example",
+    "tech_stack": [
+      "Snowflake",
+      "Mixpanel"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-23",
+    "notes": "Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "SDK",
+      "offline"
+    ]
+  },
+  {
+    "id": 106,
+    "first_name": "Zoe",
+    "last_name": "Costa",
+    "email": "zoe.costa@zenithfinance.example",
+    "job_title": "Director, Digital Acquisition",
+    "company": "ZenithFinance",
+    "company_size": 520,
+    "industry": "Insurance",
+    "location": "Minneapolis, MN",
+    "website": "https://zenithfinance.example",
+    "tech_stack": [
+      "Snowflake",
+      "Tealium",
+      "Zapier",
+      "Mixpanel"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-06",
+    "notes": "Wants clean-room integrations and offline matchback. Needs HIPAA-compliant workflows and data governance. Testing incrementality and MMM readiness.",
+    "tags": [
+      "logistics",
+      "ABM",
+      "privacy"
+    ]
+  },
+  {
+    "id": 107,
+    "first_name": "Gabe",
+    "last_name": "Nakamura",
+    "email": "gabe.nakamura@hanamobility.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "HanaMobility",
+    "company_size": 2100,
+    "industry": "CPG",
+    "location": "Tokyo, JP",
+    "website": "https://hanamobility.example",
+    "tech_stack": [
+      "Metabase",
+      "Google Ads",
+      "Asana",
+      "Snowflake"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-19",
+    "notes": "Geofencing and lookalike modeling around key sites. Wants call tracking integration and territory routing. Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "brand safety",
+      "APAC",
+      "RAG"
+    ]
+  },
+  {
+    "id": 108,
+    "first_name": "Omar",
+    "last_name": "Lopez",
+    "email": "omar.lopez@atlasworks.example",
+    "job_title": "Director of Product Marketing",
+    "company": "AtlasWorks",
+    "company_size": 7000,
+    "industry": "Real Estate",
+    "location": "Boston, MA",
+    "website": "https://atlasworks.example",
+    "tech_stack": [
+      "6sense",
+      "BigQuery",
+      "Klaviyo",
+      "PowerBI"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-20",
+    "notes": "Testing incrementality and MMM readiness.",
+    "tags": [
+      "logistics",
+      "SKAN",
+      "community",
+      "clean room"
+    ]
+  },
+  {
+    "id": 109,
+    "first_name": "Bea",
+    "last_name": "Baker",
+    "email": "bea.baker@rapidutilities.example",
+    "job_title": "Director, Media Strategy",
+    "company": "RapidUtilities",
+    "company_size": 4100,
+    "industry": "AgTech",
+    "location": "Phoenix, AZ",
+    "website": "https://rapidutilities.example",
+    "tech_stack": [
+      "Google Ads",
+      "Salesforce",
+      "BigQuery"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-25",
+    "notes": "Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "community",
+      "attribution"
+    ]
+  },
+  {
+    "id": 110,
+    "first_name": "Wes",
+    "last_name": "Schultz",
+    "email": "wes.schultz@cascadecruises.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "CascadeCruises",
+    "company_size": 380,
+    "industry": "Insurance",
+    "location": "Denver, CO",
+    "website": "https://cascadecruises.example",
+    "tech_stack": [
+      "GA4",
+      "Marketo",
+      "Amplitude"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-09",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Testing incrementality and MMM readiness.",
+    "tags": [
+      "clean room",
+      "logistics"
+    ]
+  },
+  {
+    "id": 111,
+    "first_name": "Wes",
+    "last_name": "Bauer",
+    "email": "wes.bauer@clearwaterdigital.example",
+    "job_title": "Director of Product Marketing",
+    "company": "ClearWaterDigital",
+    "company_size": 4100,
+    "industry": "Telecom",
+    "location": "New York, NY",
+    "website": "https://clearwaterdigital.example",
+    "tech_stack": [
+      "Marketo",
+      "Snowflake"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-25",
+    "notes": "Wants call tracking integration and territory routing. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "offline",
+      "localization",
+      "ABM",
+      "attribution"
+    ]
+  },
+  {
+    "id": 112,
+    "first_name": "Nina",
+    "last_name": "Rossi",
+    "email": "nina.rossi@novamobility.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "NovaMobility",
+    "company_size": 8900,
+    "industry": "CPG",
+    "location": "Seattle, WA",
+    "website": "https://novamobility.example",
+    "tech_stack": [
+      "mParticle",
+      "Snowflake",
+      "Asana",
+      "GA4"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-04",
+    "notes": "Looking for multilingual creatives and localization.",
+    "tags": [
+      "gaming",
+      "education",
+      "ABM",
+      "tracking"
+    ]
+  },
+  {
+    "id": 113,
+    "first_name": "Farah",
+    "last_name": "Singh",
+    "email": "farah.singh@pacificinsurance.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "PacificInsurance",
+    "company_size": 80,
+    "industry": "Automotive",
+    "location": "Vancouver, BC",
+    "website": "https://pacificinsurance.example",
+    "tech_stack": [
+      "Klaviyo",
+      "Tealium"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-22",
+    "notes": "Considering dynamic creative optimization and feeds. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "routing",
+      "SDK",
+      "brand safety",
+      "HIPAA"
+    ]
+  },
+  {
+    "id": 114,
+    "first_name": "Lina",
+    "last_name": "Schultz",
+    "email": "lina.schultz@silveroaksolutions.example",
+    "job_title": "Director of Analytics",
+    "company": "SilverOakSolutions",
+    "company_size": 2100,
+    "industry": "HR Tech",
+    "location": "Chicago, IL",
+    "website": "https://silveroaksolutions.example",
+    "tech_stack": [
+      "Gong",
+      "HubSpot",
+      "DBT"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-13",
+    "notes": "Considering dynamic creative optimization and feeds. Geofencing and lookalike modeling around key sites. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "CTV",
+      "HIPAA",
+      "UGC",
+      "RAG"
+    ]
+  },
+  {
+    "id": 115,
+    "first_name": "Lina",
+    "last_name": "Costa",
+    "email": "lina.costa@vertextech.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "VertexTech",
+    "company_size": 380,
+    "industry": "Utilities",
+    "location": "Los Angeles, CA",
+    "website": "https://vertextech.example",
+    "tech_stack": [
+      "Firebase",
+      "NielsenIQ"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-29",
+    "notes": "Looking for multilingual creatives and localization.",
+    "tags": [
+      "enrichment",
+      "ABM",
+      "offline",
+      "logistics"
+    ]
+  },
+  {
+    "id": 116,
+    "first_name": "Cam",
+    "last_name": "Reed",
+    "email": "cam.reed@radiantindustries.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "RadiantIndustries",
+    "company_size": 2100,
+    "industry": "CPG",
+    "location": "Phoenix, AZ",
+    "website": "https://radiantindustries.example",
+    "tech_stack": [
+      "Snowflake",
+      "Tealium",
+      "Looker",
+      "Asana"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-23",
+    "notes": "Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "gaming",
+      "manufacturing",
+      "geofencing"
+    ]
+  },
+  {
+    "id": 117,
+    "first_name": "Milo",
+    "last_name": "Reed",
+    "email": "milo.reed@orbitmobility.example",
+    "job_title": "Director of Analytics",
+    "company": "OrbitMobility",
+    "company_size": 520,
+    "industry": "SaaS",
+    "location": "Montreal, QC",
+    "website": "https://orbitmobility.example",
+    "tech_stack": [
+      "Snowflake",
+      "NielsenIQ",
+      "Mixpanel",
+      "Klaviyo",
+      "Zapier"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-04",
+    "notes": "Testing incrementality and MMM readiness.",
+    "tags": [
+      "offline",
+      "fraud"
+    ]
+  },
+  {
+    "id": 118,
+    "first_name": "Cam",
+    "last_name": "Kowalski",
+    "email": "cam.kowalski@orbitalrides.example",
+    "job_title": "Director of Analytics",
+    "company": "OrbitalRides",
+    "company_size": 5200,
+    "industry": "AgTech",
+    "location": "Berlin, DE",
+    "website": "https://orbitalrides.example",
+    "tech_stack": [
+      "Marketo",
+      "Gong",
+      "HubSpot"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-20",
+    "notes": "Wants call tracking integration and territory routing. Prefers lightweight SDKs and short implementation time. Targeting expansion into new markets this quarter.",
+    "tags": [
+      "incrementality",
+      "privacy",
+      "finance",
+      "tracking"
+    ]
+  },
+  {
+    "id": 119,
+    "first_name": "Priya",
+    "last_name": "Chen",
+    "email": "priya.chen@atlanticpets.example",
+    "job_title": "Director of Growth",
+    "company": "AtlanticPets",
+    "company_size": 1400,
+    "industry": "Government",
+    "location": "San Francisco, CA",
+    "website": "https://atlanticpets.example",
+    "tech_stack": [
+      "Metabase",
+      "Amplitude"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-03",
+    "notes": "Prefers lightweight SDKs and short implementation time. Needs deduped reach and brand safety controls. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "routing",
+      "ROAS"
+    ]
+  },
+  {
+    "id": 120,
+    "first_name": "Priya",
+    "last_name": "Smith",
+    "email": "priya.smith@radiantmobility.example",
+    "job_title": "Director of Growth",
+    "company": "RadiantMobility",
+    "company_size": 520,
+    "industry": "Travel",
+    "location": "Singapore, SG",
+    "website": "https://radiantmobility.example",
+    "tech_stack": [
+      "Segment",
+      "Slate",
+      "DBT",
+      "6sense"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-13",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Interested in retail media pilots and privacy-safe audiences. Targeting expansion into new markets this quarter.",
+    "tags": [
+      "attribution",
+      "education",
+      "gaming",
+      "RAG"
+    ]
+  },
+  {
+    "id": 121,
+    "first_name": "Talia",
+    "last_name": "El-Sayed",
+    "email": "talia.el-sayed@pacificworks.example",
+    "job_title": "CMO",
+    "company": "PacificWorks",
+    "company_size": 5200,
+    "industry": "Ecommerce",
+    "location": "Dublin, IE",
+    "website": "https://pacificworks.example",
+    "tech_stack": [
+      "HubSpot",
+      "Firebase",
+      "Tealium"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-15",
+    "notes": "Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "attribution",
+      "seasonality"
+    ]
+  },
+  {
+    "id": 122,
+    "first_name": "Samir",
+    "last_name": "Nguyen",
+    "email": "samir.nguyen@primewaveworks.example",
+    "job_title": "Director of User Acquisition",
+    "company": "PrimeWaveWorks",
+    "company_size": 4100,
+    "industry": "Telecom",
+    "location": "Singapore, SG",
+    "website": "https://primewaveworks.example",
+    "tech_stack": [
+      "Braze",
+      "Gong"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-31",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "incrementality",
+      "gaming",
+      "lead scoring"
+    ]
+  },
+  {
+    "id": 123,
+    "first_name": "Evan",
+    "last_name": "Kim",
+    "email": "evan.kim@vertexclinic.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "VertexClinic",
+    "company_size": 520,
+    "industry": "Insurance",
+    "location": "Columbus, OH",
+    "website": "https://vertexclinic.example",
+    "tech_stack": [
+      "Asana",
+      "Airtable",
+      "BigQuery",
+      "Amplitude"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-20",
+    "notes": "Looking for multilingual creatives and localization. Targeting expansion into new markets this quarter.",
+    "tags": [
+      "finance",
+      "LTV"
+    ]
+  },
+  {
+    "id": 124,
+    "first_name": "Farah",
+    "last_name": "M\u00fcller",
+    "email": "farah.m\u00fcller@fusiondynamics.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "FusionDynamics",
+    "company_size": 900,
+    "industry": "Nonprofit",
+    "location": "Phoenix, AZ",
+    "website": "https://fusiondynamics.example",
+    "tech_stack": [
+      "Marketo",
+      "Asana"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-19",
+    "notes": "Geofencing and lookalike modeling around key sites. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "education",
+      "LTV",
+      "retail media",
+      "seasonality"
+    ]
+  },
+  {
+    "id": 125,
+    "first_name": "Nina",
+    "last_name": "Tan",
+    "email": "nina.tan@nextpeakcruises.example",
+    "job_title": "Director, Growth Operations",
+    "company": "NextPeakCruises",
+    "company_size": 8900,
+    "industry": "Gaming",
+    "location": "Chicago, IL",
+    "website": "https://nextpeakcruises.example",
+    "tech_stack": [
+      "Snowflake",
+      "Looker",
+      "Marketo",
+      "Metabase",
+      "DBT"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-17",
+    "notes": "Testing incrementality and MMM readiness.",
+    "tags": [
+      "retail media",
+      "CTV"
+    ]
+  },
+  {
+    "id": 126,
+    "first_name": "Zane",
+    "last_name": "Kannan",
+    "email": "zane.kannan@apexutilities.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "ApexUtilities",
+    "company_size": 7000,
+    "industry": "Financial Services",
+    "location": "Sydney, AU",
+    "website": "https://apexutilities.example",
+    "tech_stack": [
+      "GA4",
+      "Klaviyo"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-21",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Geofencing and lookalike modeling around key sites. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "mobile",
+      "CTV",
+      "SKAN",
+      "ROAS"
+    ]
+  },
+  {
+    "id": 127,
+    "first_name": "Marta",
+    "last_name": "Patel",
+    "email": "marta.patel@pillartutoring.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "PillarTutoring",
+    "company_size": 7000,
+    "industry": "Nonprofit",
+    "location": "Boston, MA",
+    "website": "https://pillartutoring.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "BigQuery",
+      "GA4",
+      "Slate"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-06",
+    "notes": "Wants call tracking integration and territory routing. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "retail media",
+      "CTV"
+    ]
+  },
+  {
+    "id": 128,
+    "first_name": "Cam",
+    "last_name": "Abdel",
+    "email": "cam.abdel@vectorfinance.example",
+    "job_title": "Director, Media Strategy",
+    "company": "VectorFinance",
+    "company_size": 8900,
+    "industry": "Media & Entertainment",
+    "location": "Berlin, DE",
+    "website": "https://vectorfinance.example",
+    "tech_stack": [
+      "Gong",
+      "Airtable"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-05",
+    "notes": "Targeting expansion into new markets this quarter. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "geofencing",
+      "localization",
+      "routing"
+    ]
+  },
+  {
+    "id": 129,
+    "first_name": "Zane",
+    "last_name": "Nguyen",
+    "email": "zane.nguyen@lumenai.example",
+    "job_title": "Director, Partnerships",
+    "company": "LumenAI",
+    "company_size": 35,
+    "industry": "Retail",
+    "location": "Chicago, IL",
+    "website": "https://lumenai.example",
+    "tech_stack": [
+      "Tealium",
+      "mParticle"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-26",
+    "notes": "Considering dynamic creative optimization and feeds. Looking for multilingual creatives and localization. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "fraud",
+      "privacy",
+      "CTV"
+    ]
+  },
+  {
+    "id": 130,
+    "first_name": "Drew",
+    "last_name": "Santos",
+    "email": "drew.santos@clearskyanalytics.example",
+    "job_title": "Director, Media Strategy",
+    "company": "ClearSkyAnalytics",
+    "company_size": 310,
+    "industry": "Mobility",
+    "location": "Dublin, IE",
+    "website": "https://clearskyanalytics.example",
+    "tech_stack": [
+      "Slate",
+      "DBT"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-06",
+    "notes": "Testing incrementality and MMM readiness. Wants clean-room integrations and offline matchback. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "HIPAA",
+      "UGC",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 131,
+    "first_name": "Jon",
+    "last_name": "Okafor",
+    "email": "jon.okafor@altitudeagro.example",
+    "job_title": "Growth Lead",
+    "company": "AltitudeAgro",
+    "company_size": 8900,
+    "industry": "Nonprofit",
+    "location": "New York, NY",
+    "website": "https://altitudeagro.example",
+    "tech_stack": [
+      "Mixpanel",
+      "Salesforce",
+      "Google Ads",
+      "Zapier"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-21",
+    "notes": "Wants call tracking integration and territory routing. Considering dynamic creative optimization and feeds. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "offline",
+      "attribution",
+      "gaming"
+    ]
+  },
+  {
+    "id": 132,
+    "first_name": "Diego",
+    "last_name": "Santos",
+    "email": "diego.santos@civicrides.example",
+    "job_title": "Head of Lifecycle Marketing",
+    "company": "CivicRides",
+    "company_size": 5200,
+    "industry": "Manufacturing",
+    "location": "Minneapolis, MN",
+    "website": "https://civicrides.example",
+    "tech_stack": [
+      "mParticle",
+      "Braze",
+      "GA4",
+      "Google Ads"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-11",
+    "notes": "Testing incrementality and MMM readiness. Evaluating programmatic partners; needs ABM at scale. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "gaming",
+      "offline"
+    ]
+  },
+  {
+    "id": 133,
+    "first_name": "Esha",
+    "last_name": "Gupta",
+    "email": "esha.gupta@brightpathworks.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "BrightPathWorks",
+    "company_size": 150,
+    "industry": "Healthcare",
+    "location": "Denver, CO",
+    "website": "https://brightpathworks.example",
+    "tech_stack": [
+      "Mixpanel",
+      "Snowflake"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-28",
+    "notes": "Wants call tracking integration and territory routing. Needs deduped reach and brand safety controls. Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "community",
+      "ABM",
+      "offline",
+      "LTV"
+    ]
+  },
+  {
+    "id": 134,
+    "first_name": "Sami",
+    "last_name": "El-Sayed",
+    "email": "sami.el-sayed@alpennetworks.example",
+    "job_title": "Director of Analytics",
+    "company": "AlpenNetworks",
+    "company_size": 1200,
+    "industry": "Education",
+    "location": "Los Angeles, CA",
+    "website": "https://alpennetworks.example",
+    "tech_stack": [
+      "Airtable",
+      "Marketo",
+      "Segment",
+      "Asana",
+      "NielsenIQ"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-07",
+    "notes": "Testing incrementality and MMM readiness. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "HIPAA",
+      "CTV",
+      "lead scoring"
+    ]
+  },
+  {
+    "id": 135,
+    "first_name": "Avery",
+    "last_name": "Singh",
+    "email": "avery.singh@blueharborbank.example",
+    "job_title": "Director of User Acquisition",
+    "company": "BlueHarborBank",
+    "company_size": 520,
+    "industry": "Financial Services",
+    "location": "Tokyo, JP",
+    "website": "https://blueharborbank.example",
+    "tech_stack": [
+      "Segment",
+      "Tealium",
+      "Tableau"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-07-30",
+    "notes": "Evaluating programmatic partners; needs ABM at scale. Testing incrementality and MMM readiness. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "manufacturing",
+      "CTV"
+    ]
+  },
+  {
+    "id": 136,
+    "first_name": "Gio",
+    "last_name": "M\u00fcller",
+    "email": "gio.m\u00fcller@quantumnetworks.example",
+    "job_title": "Growth Lead",
+    "company": "QuantumNetworks",
+    "company_size": 260,
+    "industry": "Automotive",
+    "location": "Atlanta, GA",
+    "website": "https://quantumnetworks.example",
+    "tech_stack": [
+      "PowerBI",
+      "Tableau",
+      "Klaviyo"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-15",
+    "notes": "Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "localization",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 137,
+    "first_name": "Ava",
+    "last_name": "Costa",
+    "email": "ava.costa@clearwaterinsurance.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "ClearWaterInsurance",
+    "company_size": 410,
+    "industry": "Media & Entertainment",
+    "location": "Montreal, QC",
+    "website": "https://clearwaterinsurance.example",
+    "tech_stack": [
+      "PowerBI",
+      "Looker",
+      "Braze",
+      "Asana",
+      "Google Ads"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-06",
+    "notes": "Wants call tracking integration and territory routing. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "clean room",
+      "SDK",
+      "attribution"
+    ]
+  },
+  {
+    "id": 138,
+    "first_name": "Nina",
+    "last_name": "Gupta",
+    "email": "nina.gupta@orbithealth.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "OrbitHealth",
+    "company_size": 1400,
+    "industry": "Insurance",
+    "location": "Phoenix, AZ",
+    "website": "https://orbithealth.example",
+    "tech_stack": [
+      "Amplitude",
+      "GA4",
+      "Salesforce"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-12",
+    "notes": "Considering dynamic creative optimization and feeds. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "offline",
+      "SKAN",
+      "tracking"
+    ]
+  },
+  {
+    "id": 139,
+    "first_name": "Gio",
+    "last_name": "Abdel",
+    "email": "gio.abdel@alpenfinance.example",
+    "job_title": "Growth Lead",
+    "company": "AlpenFinance",
+    "company_size": 4100,
+    "industry": "Cybersecurity",
+    "location": "Sydney, AU",
+    "website": "https://alpenfinance.example",
+    "tech_stack": [
+      "Metabase",
+      "Braze",
+      "Slate",
+      "Salesforce"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-27",
+    "notes": "Targeting expansion into new markets this quarter. Wants clean-room integrations and offline matchback. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "ROAS",
+      "APAC",
+      "retail media",
+      "gaming"
+    ]
+  },
+  {
+    "id": 140,
+    "first_name": "Kei",
+    "last_name": "Romero",
+    "email": "kei.romero@atlasfoods.example",
+    "job_title": "Director of Product Marketing",
+    "company": "AtlasFoods",
+    "company_size": 450,
+    "industry": "AI/ML",
+    "location": "Dublin, IE",
+    "website": "https://atlasfoods.example",
+    "tech_stack": [
+      "Salesforce",
+      "Gong",
+      "Google Ads"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-12",
+    "notes": "Wants clean-room integrations and offline matchback. Needs deduped reach and brand safety controls. Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "gaming",
+      "education",
+      "brand safety"
+    ]
+  },
+  {
+    "id": 141,
+    "first_name": "Talia",
+    "last_name": "Reed",
+    "email": "talia.reed@vertexgroup.example",
+    "job_title": "Director, Media Strategy",
+    "company": "VertexGroup",
+    "company_size": 310,
+    "industry": "Education",
+    "location": "Lisbon, PT",
+    "website": "https://vertexgroup.example",
+    "tech_stack": [
+      "Tealium",
+      "Airtable",
+      "GA4"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-24",
+    "notes": "Targeting expansion into new markets this quarter. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "community",
+      "retail media"
+    ]
+  },
+  {
+    "id": 142,
+    "first_name": "Yara",
+    "last_name": "Smith",
+    "email": "yara.smith@northwinddigital.example",
+    "job_title": "Director, Growth Operations",
+    "company": "NorthwindDigital",
+    "company_size": 520,
+    "industry": "Media & Entertainment",
+    "location": "Atlanta, GA",
+    "website": "https://northwinddigital.example",
+    "tech_stack": [
+      "BigQuery",
+      "AppsFlyer"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-26",
+    "notes": "Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "mobile",
+      "CTV"
+    ]
+  },
+  {
+    "id": 143,
+    "first_name": "Fatima",
+    "last_name": "Fischer",
+    "email": "fatima.fischer@heliosfinance.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "HeliosFinance",
+    "company_size": 35,
+    "industry": "Healthcare",
+    "location": "Columbus, OH",
+    "website": "https://heliosfinance.example",
+    "tech_stack": [
+      "Segment",
+      "Salesforce",
+      "Snowflake",
+      "Klaviyo"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-09",
+    "notes": "Interested in retail media pilots and privacy-safe audiences. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "localization",
+      "tracking",
+      "brand safety"
+    ]
+  },
+  {
+    "id": 144,
+    "first_name": "Leah",
+    "last_name": "Ishikawa",
+    "email": "leah.ishikawa@vertexair.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "VertexAir",
+    "company_size": 35,
+    "industry": "Telecom",
+    "location": "Lisbon, PT",
+    "website": "https://vertexair.example",
+    "tech_stack": [
+      "Tealium",
+      "PowerBI",
+      "Google Ads",
+      "Mixpanel",
+      "Asana"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-02",
+    "notes": "Geofencing and lookalike modeling around key sites. Interested in retail media pilots and privacy-safe audiences. Looking for multilingual creatives and localization.",
+    "tags": [
+      "education",
+      "mobile",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 145,
+    "first_name": "Milo",
+    "last_name": "Rossi",
+    "email": "milo.rossi@vertexbank.example",
+    "job_title": "Director of Product Marketing",
+    "company": "VertexBank",
+    "company_size": 120,
+    "industry": "Education",
+    "location": "Singapore, SG",
+    "website": "https://vertexbank.example",
+    "tech_stack": [
+      "Salesforce",
+      "Gong",
+      "Airtable",
+      "Klaviyo",
+      "Braze"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-27",
+    "notes": "Wants call tracking integration and territory routing. Testing incrementality and MMM readiness.",
+    "tags": [
+      "APAC",
+      "community",
+      "finance"
+    ]
+  },
+  {
+    "id": 146,
+    "first_name": "Marta",
+    "last_name": "Lee",
+    "email": "marta.lee@lumensoft.example",
+    "job_title": "Director of Product Marketing",
+    "company": "LumenSoft",
+    "company_size": 800,
+    "industry": "Telecom",
+    "location": "Lisbon, PT",
+    "website": "https://lumensoft.example",
+    "tech_stack": [
+      "DBT",
+      "Zapier",
+      "Firebase"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-09-02",
+    "notes": "Interested in retail media pilots and privacy-safe audiences.",
+    "tags": [
+      "enrichment",
+      "finance",
+      "clean room"
+    ]
+  },
+  {
+    "id": 147,
+    "first_name": "Pia",
+    "last_name": "Khan",
+    "email": "pia.khan@cobaltretail.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "CobaltRetail",
+    "company_size": 7000,
+    "industry": "SaaS",
+    "location": "Minneapolis, MN",
+    "website": "https://cobaltretail.example",
+    "tech_stack": [
+      "Airtable",
+      "AppsFlyer",
+      "NielsenIQ",
+      "Snowflake",
+      "mParticle"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-23",
+    "notes": "Targeting expansion into new markets this quarter. Looking for multilingual creatives and localization.",
+    "tags": [
+      "geofencing",
+      "HIPAA",
+      "logistics"
+    ]
+  },
+  {
+    "id": 148,
+    "first_name": "Uma",
+    "last_name": "Rossi",
+    "email": "uma.rossi@cobaltanalytics.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "CobaltAnalytics",
+    "company_size": 1200,
+    "industry": "Cybersecurity",
+    "location": "Phoenix, AZ",
+    "website": "https://cobaltanalytics.example",
+    "tech_stack": [
+      "Looker",
+      "Amplitude",
+      "GA4"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-09-17",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Evaluating programmatic partners; needs ABM at scale. Needs deduped reach and brand safety controls.",
+    "tags": [
+      "SDK",
+      "offline",
+      "attribution"
+    ]
+  },
+  {
+    "id": 149,
+    "first_name": "Marta",
+    "last_name": "Silva",
+    "email": "marta.silva@nimbusdynamics.example",
+    "job_title": "Director of Product Marketing",
+    "company": "NimbusDynamics",
+    "company_size": 520,
+    "industry": "Energy",
+    "location": "Montreal, QC",
+    "website": "https://nimbusdynamics.example",
+    "tech_stack": [
+      "Mixpanel",
+      "mParticle"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-21",
+    "notes": "Testing incrementality and MMM readiness. Wants call tracking integration and territory routing. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "geofencing",
+      "ROAS",
+      "lead scoring",
+      "HIPAA"
+    ]
+  },
+  {
+    "id": 150,
+    "first_name": "Samir",
+    "last_name": "Costa",
+    "email": "samir.costa@lumenlabs.example",
+    "job_title": "Brand Director",
+    "company": "LumenLabs",
+    "company_size": 35,
+    "industry": "Media & Entertainment",
+    "location": "Atlanta, GA",
+    "website": "https://lumenlabs.example",
+    "tech_stack": [
+      "Braze",
+      "Looker",
+      "BigQuery"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-16",
+    "notes": "Wants clean-room integrations and offline matchback. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "privacy",
+      "attribution",
+      "enrichment",
+      "tracking"
+    ]
+  },
+  {
+    "id": 151,
+    "first_name": "Ben",
+    "last_name": "Ishikawa",
+    "email": "ben.ishikawa@redpinebank.example",
+    "job_title": "Director of Growth",
+    "company": "RedPineBank",
+    "company_size": 260,
+    "industry": "Travel",
+    "location": "Columbus, OH",
+    "website": "https://redpinebank.example",
+    "tech_stack": [
+      "Looker",
+      "Klaviyo",
+      "NielsenIQ"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-29",
+    "notes": "Targeting expansion into new markets this quarter. Wants call tracking integration and territory routing.",
+    "tags": [
+      "RAG",
+      "incrementality"
+    ]
+  },
+  {
+    "id": 152,
+    "first_name": "Gio",
+    "last_name": "Singh",
+    "email": "gio.singh@fusionpartners.example",
+    "job_title": "Director of Product Marketing",
+    "company": "FusionPartners",
+    "company_size": 900,
+    "industry": "Media & Entertainment",
+    "location": "Columbus, OH",
+    "website": "https://fusionpartners.example",
+    "tech_stack": [
+      "BigQuery",
+      "Braze",
+      "Snowflake"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-09-05",
+    "notes": "Wants call tracking integration and territory routing.",
+    "tags": [
+      "privacy",
+      "UGC",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 153,
+    "first_name": "Hazel",
+    "last_name": "Wong",
+    "email": "hazel.wong@terranetworks.example",
+    "job_title": "Director of Analytics",
+    "company": "TerraNetworks",
+    "company_size": 310,
+    "industry": "SaaS",
+    "location": "Denver, CO",
+    "website": "https://terranetworks.example",
+    "tech_stack": [
+      "Salesforce",
+      "Mixpanel",
+      "DBT",
+      "HubSpot"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-29",
+    "notes": "Considering dynamic creative optimization and feeds. Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "retail media",
+      "enrichment",
+      "SDK",
+      "offline"
+    ]
+  },
+  {
+    "id": 154,
+    "first_name": "Jon",
+    "last_name": "Hossain",
+    "email": "jon.hossain@nextpeakinsurance.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "NextPeakInsurance",
+    "company_size": 3300,
+    "industry": "Pharma",
+    "location": "Los Angeles, CA",
+    "website": "https://nextpeakinsurance.example",
+    "tech_stack": [
+      "Snowflake",
+      "Looker",
+      "Klaviyo",
+      "Google Ads"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-06",
+    "notes": "Looking for multilingual creatives and localization. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "community",
+      "lead scoring",
+      "education",
+      "privacy"
+    ]
+  },
+  {
+    "id": 155,
+    "first_name": "Diego",
+    "last_name": "Chen",
+    "email": "diego.chen@atlasfinance.example",
+    "job_title": "Director, Growth Operations",
+    "company": "AtlasFinance",
+    "company_size": 35,
+    "industry": "Mobility",
+    "location": "Austin, TX",
+    "website": "https://atlasfinance.example",
+    "tech_stack": [
+      "DBT",
+      "HubSpot"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-13",
+    "notes": "Needs deduped reach and brand safety controls.",
+    "tags": [
+      "finance",
+      "ROAS",
+      "RAG"
+    ]
+  },
+  {
+    "id": 156,
+    "first_name": "Xavier",
+    "last_name": "Fischer",
+    "email": "xavier.fischer@quantumlogix.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "QuantumLogix",
+    "company_size": 120,
+    "industry": "AI/ML",
+    "location": "Lisbon, PT",
+    "website": "https://quantumlogix.example",
+    "tech_stack": [
+      "BigQuery",
+      "Klaviyo",
+      "Salesforce",
+      "Metabase"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-07-30",
+    "notes": "Geofencing and lookalike modeling around key sites. Wants clean-room integrations and offline matchback. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "attribution",
+      "finance",
+      "offline",
+      "logistics"
+    ]
+  },
+  {
+    "id": 157,
+    "first_name": "Priya",
+    "last_name": "Ishikawa",
+    "email": "priya.ishikawa@monarchai.example",
+    "job_title": "Senior Demand Gen Manager",
+    "company": "MonarchAI",
+    "company_size": 1400,
+    "industry": "Cybersecurity",
+    "location": "Dallas, TX",
+    "website": "https://monarchai.example",
+    "tech_stack": [
+      "Asana",
+      "6sense",
+      "Mixpanel",
+      "GA4",
+      "NielsenIQ"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-08",
+    "notes": "Seasonal campaigns with weather-triggered logic. Needs HIPAA-compliant workflows and data governance. Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "lead scoring",
+      "education"
+    ]
+  },
+  {
+    "id": 158,
+    "first_name": "Leah",
+    "last_name": "Patel",
+    "email": "leah.patel@orbitalmedia.example",
+    "job_title": "Director, Growth Operations",
+    "company": "OrbitalMedia",
+    "company_size": 35,
+    "industry": "Financial Services",
+    "location": "Sydney, AU",
+    "website": "https://orbitalmedia.example",
+    "tech_stack": [
+      "Braze",
+      "Airtable",
+      "Slate"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-22",
+    "notes": "Prefers lightweight SDKs and short implementation time.",
+    "tags": [
+      "SDK",
+      "retail media",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": 159,
+    "first_name": "Ava",
+    "last_name": "Kapoor",
+    "email": "ava.kapoor@cascadehcm.example",
+    "job_title": "Marketing Manager",
+    "company": "CascadeHCM",
+    "company_size": 260,
+    "industry": "CPG",
+    "location": "Tokyo, JP",
+    "website": "https://cascadehcm.example",
+    "tech_stack": [
+      "GA4",
+      "Salesforce",
+      "NielsenIQ",
+      "Zapier",
+      "Tealium"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-24",
+    "notes": "Needs deduped reach and brand safety controls. Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "gaming",
+      "attribution"
+    ]
+  },
+  {
+    "id": 160,
+    "first_name": "Ian",
+    "last_name": "Kannan",
+    "email": "ian.kannan@fusionfiber.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "FusionFiber",
+    "company_size": 4100,
+    "industry": "Mobility",
+    "location": "Phoenix, AZ",
+    "website": "https://fusionfiber.example",
+    "tech_stack": [
+      "PowerBI",
+      "Klaviyo",
+      "Firebase",
+      "Airtable",
+      "HubSpot"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-31",
+    "notes": "Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "fraud",
+      "SDK",
+      "routing",
+      "privacy"
+    ]
+  },
+  {
+    "id": 161,
+    "first_name": "Esha",
+    "last_name": "Park",
+    "email": "esha.park@skylineclinic.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "SkylineClinic",
+    "company_size": 310,
+    "industry": "Financial Services",
+    "location": "Toronto, ON",
+    "website": "https://skylineclinic.example",
+    "tech_stack": [
+      "Asana",
+      "GA4",
+      "DBT",
+      "Braze"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-14",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "UGC",
+      "SKAN",
+      "mobile",
+      "community"
+    ]
+  },
+  {
+    "id": 162,
+    "first_name": "Milo",
+    "last_name": "Lee",
+    "email": "milo.lee@atlanticretail.example",
+    "job_title": "Director of Product Marketing",
+    "company": "AtlanticRetail",
+    "company_size": 2200,
+    "industry": "Real Estate",
+    "location": "Austin, TX",
+    "website": "https://atlanticretail.example",
+    "tech_stack": [
+      "HubSpot",
+      "Snowflake",
+      "Airtable",
+      "Salesforce",
+      "Gong"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-06",
+    "notes": "Testing incrementality and MMM readiness. Seasonal campaigns with weather-triggered logic. Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "SDK",
+      "geofencing",
+      "brand safety"
+    ]
+  },
+  {
+    "id": 163,
+    "first_name": "Esha",
+    "last_name": "Fischer",
+    "email": "esha.fischer@atlasnetworks.example",
+    "job_title": "Head of Lifecycle Marketing",
+    "company": "AtlasNetworks",
+    "company_size": 450,
+    "industry": "Ecommerce",
+    "location": "Montreal, QC",
+    "website": "https://atlasnetworks.example",
+    "tech_stack": [
+      "PowerBI",
+      "Looker"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-15",
+    "notes": "Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "brand safety",
+      "APAC",
+      "lead scoring"
+    ]
+  },
+  {
+    "id": 164,
+    "first_name": "Fatima",
+    "last_name": "Singh",
+    "email": "fatima.singh@primewavehealth.example",
+    "job_title": "Product Marketing Manager",
+    "company": "PrimeWaveHealth",
+    "company_size": 1400,
+    "industry": "Pharma",
+    "location": "Phoenix, AZ",
+    "website": "https://primewavehealth.example",
+    "tech_stack": [
+      "Klaviyo",
+      "Segment",
+      "Braze",
+      "Google Ads"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-22",
+    "notes": "Interested in retail media pilots and privacy-safe audiences. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "HIPAA",
+      "tracking"
+    ]
+  },
+  {
+    "id": 165,
+    "first_name": "Lina",
+    "last_name": "Reed",
+    "email": "lina.reed@clearskyanalytics.example",
+    "job_title": "Director of Analytics",
+    "company": "ClearSkyAnalytics",
+    "company_size": 2100,
+    "industry": "Gaming",
+    "location": "Atlanta, GA",
+    "website": "https://clearskyanalytics.example",
+    "tech_stack": [
+      "GA4",
+      "BigQuery",
+      "DBT",
+      "Klaviyo",
+      "Gong"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-22",
+    "notes": "Needs deduped reach and brand safety controls. Targeting expansion into new markets this quarter. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "CTV",
+      "HIPAA",
+      "SKAN",
+      "geofencing"
+    ]
+  },
+  {
+    "id": 166,
+    "first_name": "Hanna",
+    "last_name": "Davis",
+    "email": "hanna.davis@goldengatetutoring.example",
+    "job_title": "Marketing Manager",
+    "company": "GoldenGateTutoring",
+    "company_size": 1400,
+    "industry": "Manufacturing",
+    "location": "Denver, CO",
+    "website": "https://goldengatetutoring.example",
+    "tech_stack": [
+      "Airtable",
+      "DBT"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-07-31",
+    "notes": "Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "incrementality",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 167,
+    "first_name": "Leah",
+    "last_name": "Park",
+    "email": "leah.park@silveroaksoft.example",
+    "job_title": "Director of Performance Marketing",
+    "company": "SilverOakSoft",
+    "company_size": 35,
+    "industry": "AgTech",
+    "location": "Sydney, AU",
+    "website": "https://silveroaksoft.example",
+    "tech_stack": [
+      "Braze",
+      "Slate",
+      "Tableau",
+      "Klaviyo",
+      "Gong"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-07-30",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "incrementality",
+      "UGC"
+    ]
+  },
+  {
+    "id": 168,
+    "first_name": "Gio",
+    "last_name": "Lopez",
+    "email": "gio.lopez@hanasoft.example",
+    "job_title": "CMO",
+    "company": "HanaSoft",
+    "company_size": 410,
+    "industry": "Energy",
+    "location": "Toronto, ON",
+    "website": "https://hanasoft.example",
+    "tech_stack": [
+      "Salesforce",
+      "Google Ads"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-23",
+    "notes": "Wants clean-room integrations and offline matchback.",
+    "tags": [
+      "UGC",
+      "finance",
+      "community",
+      "mobile"
+    ]
+  },
+  {
+    "id": 169,
+    "first_name": "Vera",
+    "last_name": "Qureshi",
+    "email": "vera.qureshi@blueharborsoft.example",
+    "job_title": "Director of User Acquisition",
+    "company": "BlueHarborSoft",
+    "company_size": 8900,
+    "industry": "Insurance",
+    "location": "Boston, MA",
+    "website": "https://blueharborsoft.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "Salesforce",
+      "Asana",
+      "GA4"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-11",
+    "notes": "Looking for multilingual creatives and localization.",
+    "tags": [
+      "finance",
+      "privacy",
+      "RAG"
+    ]
+  },
+  {
+    "id": 170,
+    "first_name": "Cam",
+    "last_name": "Garcia",
+    "email": "cam.garcia@vertexsoft.example",
+    "job_title": "Senior Marketing Manager",
+    "company": "VertexSoft",
+    "company_size": 4100,
+    "industry": "Real Estate",
+    "location": "New York, NY",
+    "website": "https://vertexsoft.example",
+    "tech_stack": [
+      "GA4",
+      "BigQuery",
+      "Tableau"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-01",
+    "notes": "Wants call tracking integration and territory routing.",
+    "tags": [
+      "ABM",
+      "ROAS"
+    ]
+  },
+  {
+    "id": 171,
+    "first_name": "Tess",
+    "last_name": "Hernandez",
+    "email": "tess.hernandez@terradigital.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "TerraDigital",
+    "company_size": 1400,
+    "industry": "Real Estate",
+    "location": "Chicago, IL",
+    "website": "https://terradigital.example",
+    "tech_stack": [
+      "Klaviyo",
+      "AppsFlyer",
+      "HubSpot"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-05",
+    "notes": "Testing incrementality and MMM readiness. Wants clean-room integrations and offline matchback. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "SDK",
+      "RAG",
+      "retail media",
+      "lookalikes"
+    ]
+  },
+  {
+    "id": 172,
+    "first_name": "Drew",
+    "last_name": "Okafor",
+    "email": "drew.okafor@blueharbortutoring.example",
+    "job_title": "Director of CRM & Loyalty",
+    "company": "BlueHarborTutoring",
+    "company_size": 4100,
+    "industry": "AI/ML",
+    "location": "Montreal, QC",
+    "website": "https://blueharbortutoring.example",
+    "tech_stack": [
+      "Firebase",
+      "Snowflake",
+      "GA4"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-04",
+    "notes": "Testing incrementality and MMM readiness. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "ROAS",
+      "education"
+    ]
+  },
+  {
+    "id": 173,
+    "first_name": "Esha",
+    "last_name": "Qureshi",
+    "email": "esha.qureshi@vertexenergy.example",
+    "job_title": "Growth Lead",
+    "company": "VertexEnergy",
+    "company_size": 2200,
+    "industry": "CPG",
+    "location": "London, UK",
+    "website": "https://vertexenergy.example",
+    "tech_stack": [
+      "Braze",
+      "Metabase"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-21",
+    "notes": "Needs deduped reach and brand safety controls.",
+    "tags": [
+      "routing",
+      "fraud",
+      "finance"
+    ]
+  },
+  {
+    "id": 174,
+    "first_name": "Quinn",
+    "last_name": "Alvarez",
+    "email": "quinn.alvarez@blueriverindustries.example",
+    "job_title": "Director, Media Strategy",
+    "company": "BlueRiverIndustries",
+    "company_size": 900,
+    "industry": "Cybersecurity",
+    "location": "Toronto, ON",
+    "website": "https://blueriverindustries.example",
+    "tech_stack": [
+      "Gong",
+      "Amplitude",
+      "Metabase",
+      "Slate"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-09",
+    "notes": "Exploring LTV-based bidding and fraud mitigation. Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "HIPAA",
+      "enrichment",
+      "routing",
+      "finance"
+    ]
+  },
+  {
+    "id": 175,
+    "first_name": "Gabe",
+    "last_name": "Allen",
+    "email": "gabe.allen@skylinegroup.example",
+    "job_title": "Marketing Manager",
+    "company": "SkylineGroup",
+    "company_size": 1200,
+    "industry": "Gaming",
+    "location": "Dublin, IE",
+    "website": "https://skylinegroup.example",
+    "tech_stack": [
+      "Slate",
+      "Mixpanel"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-30",
+    "notes": "Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "fraud",
+      "clean room"
+    ]
+  },
+  {
+    "id": 176,
+    "first_name": "Xavier",
+    "last_name": "Baker",
+    "email": "xavier.baker@vertexhcm.example",
+    "job_title": "Growth Marketing Manager",
+    "company": "VertexHCM",
+    "company_size": 7000,
+    "industry": "AgTech",
+    "location": "New York, NY",
+    "website": "https://vertexhcm.example",
+    "tech_stack": [
+      "Mixpanel",
+      "Amplitude"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-18",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "ABM",
+      "manufacturing",
+      "RAG"
+    ]
+  },
+  {
+    "id": 177,
+    "first_name": "Hazel",
+    "last_name": "Sato",
+    "email": "hazel.sato@quartzanalytics.example",
+    "job_title": "VP of Marketing",
+    "company": "QuartzAnalytics",
+    "company_size": 520,
+    "industry": "Manufacturing",
+    "location": "Lisbon, PT",
+    "website": "https://quartzanalytics.example",
+    "tech_stack": [
+      "Gong",
+      "Snowflake",
+      "Marketo"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-12",
+    "notes": "Interested in retail media pilots and privacy-safe audiences. Wants call tracking integration and territory routing.",
+    "tags": [
+      "SDK",
+      "community",
+      "enrichment",
+      "fraud"
+    ]
+  },
+  {
+    "id": 178,
+    "first_name": "Kei",
+    "last_name": "Qureshi",
+    "email": "kei.qureshi@pioneerhcm.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "PioneerHCM",
+    "company_size": 2100,
+    "industry": "Mobility",
+    "location": "Atlanta, GA",
+    "website": "https://pioneerhcm.example",
+    "tech_stack": [
+      "Asana",
+      "Braze",
+      "Slate"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-24",
+    "notes": "Targeting expansion into new markets this quarter. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "retail media",
+      "SKAN",
+      "ABM"
+    ]
+  },
+  {
+    "id": 179,
+    "first_name": "Gabe",
+    "last_name": "Patel",
+    "email": "gabe.patel@nextpeakrides.example",
+    "job_title": "VP of Marketing",
+    "company": "NextPeakRides",
+    "company_size": 8900,
+    "industry": "Insurance",
+    "location": "Los Angeles, CA",
+    "website": "https://nextpeakrides.example",
+    "tech_stack": [
+      "Braze",
+      "Tealium",
+      "AppsFlyer",
+      "GA4",
+      "Looker"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-09-19",
+    "notes": "Seasonal campaigns with weather-triggered logic. Considering dynamic creative optimization and feeds. Testing incrementality and MMM readiness.",
+    "tags": [
+      "offline",
+      "privacy",
+      "retail media"
+    ]
+  },
+  {
+    "id": 180,
+    "first_name": "Uma",
+    "last_name": "Nguyen",
+    "email": "uma.nguyen@quartzanalytics.example",
+    "job_title": "Director of Product Marketing",
+    "company": "QuartzAnalytics",
+    "company_size": 80,
+    "industry": "SaaS",
+    "location": "Miami, FL",
+    "website": "https://quartzanalytics.example",
+    "tech_stack": [
+      "Snowflake",
+      "Mixpanel",
+      "Google Ads",
+      "Looker",
+      "Zapier"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-07-29",
+    "notes": "Wants call tracking integration and territory routing.",
+    "tags": [
+      "seasonality",
+      "ABM",
+      "logistics",
+      "retail media"
+    ]
+  },
+  {
+    "id": 181,
+    "first_name": "Xavier",
+    "last_name": "Clark",
+    "email": "xavier.clark@silveroakutilities.example",
+    "job_title": "Product Marketing Manager",
+    "company": "SilverOakUtilities",
+    "company_size": 3300,
+    "industry": "Nonprofit",
+    "location": "Toronto, ON",
+    "website": "https://silveroakutilities.example",
+    "tech_stack": [
+      "PowerBI",
+      "Tableau",
+      "Airtable"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-29",
+    "notes": "Wants clean-room integrations and offline matchback. Wants call tracking integration and territory routing. Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "offline",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 182,
+    "first_name": "Marta",
+    "last_name": "Kim",
+    "email": "marta.kim@cleverfinance.example",
+    "job_title": "VP, Consumer Marketing",
+    "company": "CleverFinance",
+    "company_size": 900,
+    "industry": "Financial Services",
+    "location": "London, UK",
+    "website": "https://cleverfinance.example",
+    "tech_stack": [
+      "Looker",
+      "PowerBI"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-05",
+    "notes": "Targeting expansion into new markets this quarter. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "attribution",
+      "gaming",
+      "APAC"
+    ]
+  },
+  {
+    "id": 183,
+    "first_name": "Yara",
+    "last_name": "Lee",
+    "email": "yara.lee@pillarcruises.example",
+    "job_title": "CMO",
+    "company": "PillarCruises",
+    "company_size": 900,
+    "industry": "HR Tech",
+    "location": "Boston, MA",
+    "website": "https://pillarcruises.example",
+    "tech_stack": [
+      "Klaviyo",
+      "Mixpanel",
+      "Braze",
+      "Looker"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-08-30",
+    "notes": "Wants clean-room integrations and offline matchback. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "offline",
+      "logistics"
+    ]
+  },
+  {
+    "id": 184,
+    "first_name": "Leah",
+    "last_name": "Hossain",
+    "email": "leah.hossain@primewavehealth.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "PrimeWaveHealth",
+    "company_size": 150,
+    "industry": "Mobility",
+    "location": "Sydney, AU",
+    "website": "https://primewavehealth.example",
+    "tech_stack": [
+      "GA4",
+      "NielsenIQ",
+      "DBT",
+      "Metabase"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-08-07",
+    "notes": "Interested in retail media pilots and privacy-safe audiences. Looking for multilingual creatives and localization.",
+    "tags": [
+      "brand safety",
+      "CTV",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": 185,
+    "first_name": "Yara",
+    "last_name": "Abdel",
+    "email": "yara.abdel@beaconworks.example",
+    "job_title": "Senior Demand Gen Manager",
+    "company": "BeaconWorks",
+    "company_size": 80,
+    "industry": "AgTech",
+    "location": "Tokyo, JP",
+    "website": "https://beaconworks.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "Metabase"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-22",
+    "notes": "Targeting expansion into new markets this quarter.",
+    "tags": [
+      "brand safety",
+      "finance"
+    ]
+  },
+  {
+    "id": 186,
+    "first_name": "Victor",
+    "last_name": "Davis",
+    "email": "victor.davis@monarchlabs.example",
+    "job_title": "VP, Demand Generation",
+    "company": "MonarchLabs",
+    "company_size": 3300,
+    "industry": "Cybersecurity",
+    "location": "Lisbon, PT",
+    "website": "https://monarchlabs.example",
+    "tech_stack": [
+      "6sense",
+      "AppsFlyer"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-09-25",
+    "notes": "Considering dynamic creative optimization and feeds.",
+    "tags": [
+      "RAG",
+      "UGC"
+    ]
+  },
+  {
+    "id": 187,
+    "first_name": "Bea",
+    "last_name": "Hernandez",
+    "email": "bea.hernandez@vertexmedia.example",
+    "job_title": "VP, Demand Generation",
+    "company": "VertexMedia",
+    "company_size": 2200,
+    "industry": "Energy",
+    "location": "Toronto, ON",
+    "website": "https://vertexmedia.example",
+    "tech_stack": [
+      "Google Ads",
+      "PowerBI",
+      "Mixpanel",
+      "Snowflake",
+      "Zapier"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-15",
+    "notes": "Needs deduped reach and brand safety controls. Wants clean-room integrations and offline matchback. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "lookalikes",
+      "incrementality",
+      "mobile",
+      "finance"
+    ]
+  },
+  {
+    "id": 188,
+    "first_name": "Chloe",
+    "last_name": "Baker",
+    "email": "chloe.baker@terrapets.example",
+    "job_title": "VP, Customer Acquisition",
+    "company": "TerraPets",
+    "company_size": 35,
+    "industry": "Mobility",
+    "location": "Minneapolis, MN",
+    "website": "https://terrapets.example",
+    "tech_stack": [
+      "Marketo",
+      "Airtable",
+      "Zapier",
+      "DBT"
+    ],
+    "lead_source": "Partner referral",
+    "last_contacted": "2025-09-03",
+    "notes": "Wants clean-room integrations and offline matchback. Looking for multilingual creatives and localization. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "fraud",
+      "enrichment",
+      "attribution"
+    ]
+  },
+  {
+    "id": 189,
+    "first_name": "Gabe",
+    "last_name": "Park",
+    "email": "gabe.park@atlaspartners.example",
+    "job_title": "Head of Performance Marketing",
+    "company": "AtlasPartners",
+    "company_size": 380,
+    "industry": "Travel",
+    "location": "Dallas, TX",
+    "website": "https://atlaspartners.example",
+    "tech_stack": [
+      "Google Ads",
+      "Mixpanel",
+      "Snowflake"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-09-10",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "offline",
+      "APAC",
+      "CTV"
+    ]
+  },
+  {
+    "id": 190,
+    "first_name": "Jada",
+    "last_name": "Martinez",
+    "email": "jada.martinez@vectorworksfinance.example",
+    "job_title": "VP, Digital Commerce",
+    "company": "VectorWorksFinance",
+    "company_size": 8900,
+    "industry": "Cybersecurity",
+    "location": "Minneapolis, MN",
+    "website": "https://vectorworksfinance.example",
+    "tech_stack": [
+      "Google Ads",
+      "BigQuery",
+      "6sense",
+      "Segment",
+      "Amplitude"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-08-04",
+    "notes": "Evaluating programmatic partners; needs ABM at scale.",
+    "tags": [
+      "localization",
+      "ABM"
+    ]
+  },
+  {
+    "id": 191,
+    "first_name": "Lina",
+    "last_name": "Gupta",
+    "email": "lina.gupta@beaconindustries.example",
+    "job_title": "Director, Media Strategy",
+    "company": "BeaconIndustries",
+    "company_size": 310,
+    "industry": "Real Estate",
+    "location": "Dallas, TX",
+    "website": "https://beaconindustries.example",
+    "tech_stack": [
+      "BigQuery",
+      "Asana",
+      "Gong",
+      "Tealium",
+      "6sense"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-25",
+    "notes": "Wants clean-room integrations and offline matchback. Prefers lightweight SDKs and short implementation time. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "fraud",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 192,
+    "first_name": "Hanna",
+    "last_name": "M\u00fcller",
+    "email": "hanna.m\u00fcller@atlastutoring.example",
+    "job_title": "Director of Analytics",
+    "company": "AtlasTutoring",
+    "company_size": 35,
+    "industry": "Manufacturing",
+    "location": "Dallas, TX",
+    "website": "https://atlastutoring.example",
+    "tech_stack": [
+      "AppsFlyer",
+      "Looker",
+      "Marketo"
+    ],
+    "lead_source": "Inbound - demo",
+    "last_contacted": "2025-09-22",
+    "notes": "Needs deduped reach and brand safety controls. Wants call tracking integration and territory routing. Focus on ROAS and signal loss mitigation post-cookie.",
+    "tags": [
+      "attribution",
+      "localization",
+      "geofencing",
+      "LTV"
+    ]
+  },
+  {
+    "id": 193,
+    "first_name": "Iris",
+    "last_name": "Chen",
+    "email": "iris.chen@skylinefinance.example",
+    "job_title": "Marketing Operations Lead",
+    "company": "SkylineFinance",
+    "company_size": 80,
+    "industry": "Manufacturing",
+    "location": "New York, NY",
+    "website": "https://skylinefinance.example",
+    "tech_stack": [
+      "Tealium",
+      "Gong",
+      "Airtable",
+      "BigQuery",
+      "DBT"
+    ],
+    "lead_source": "Community",
+    "last_contacted": "2025-08-16",
+    "notes": "Wants call tracking integration and territory routing. Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "SKAN",
+      "geofencing"
+    ]
+  },
+  {
+    "id": 194,
+    "first_name": "Ava",
+    "last_name": "Park",
+    "email": "ava.park@quantumsolutions.example",
+    "job_title": "VP, Demand Generation",
+    "company": "QuantumSolutions",
+    "company_size": 1200,
+    "industry": "Telecom",
+    "location": "Columbus, OH",
+    "website": "https://quantumsolutions.example",
+    "tech_stack": [
+      "Tealium",
+      "Amplitude",
+      "6sense",
+      "BigQuery",
+      "Tableau"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-09-05",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Geofencing and lookalike modeling around key sites.",
+    "tags": [
+      "finance",
+      "localization",
+      "logistics"
+    ]
+  },
+  {
+    "id": 195,
+    "first_name": "Hazel",
+    "last_name": "Kim",
+    "email": "hazel.kim@radiantpets.example",
+    "job_title": "Director of User Acquisition",
+    "company": "RadiantPets",
+    "company_size": 1400,
+    "industry": "HR Tech",
+    "location": "Phoenix, AZ",
+    "website": "https://radiantpets.example",
+    "tech_stack": [
+      "Zapier",
+      "Salesforce",
+      "Airtable",
+      "Snowflake",
+      "Tableau"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-07-30",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "finance",
+      "seasonality",
+      "privacy",
+      "CTV"
+    ]
+  },
+  {
+    "id": 196,
+    "first_name": "Hazel",
+    "last_name": "Nguyen",
+    "email": "hazel.nguyen@summitrides.example",
+    "job_title": "Director of Analytics",
+    "company": "SummitRides",
+    "company_size": 150,
+    "industry": "Government",
+    "location": "Seattle, WA",
+    "website": "https://summitrides.example",
+    "tech_stack": [
+      "Firebase",
+      "Snowflake",
+      "Klaviyo",
+      "Amplitude",
+      "Asana"
+    ],
+    "lead_source": "Inbound - content",
+    "last_contacted": "2025-07-29",
+    "notes": "Needs HIPAA-compliant workflows and data governance.",
+    "tags": [
+      "lead scoring",
+      "RAG"
+    ]
+  },
+  {
+    "id": 197,
+    "first_name": "Jon",
+    "last_name": "Kim",
+    "email": "jon.kim@vectorworkspets.example",
+    "job_title": "Director, Partnerships",
+    "company": "VectorWorksPets",
+    "company_size": 8900,
+    "industry": "Government",
+    "location": "Austin, TX",
+    "website": "https://vectorworkspets.example",
+    "tech_stack": [
+      "Tableau",
+      "HubSpot",
+      "Asana",
+      "Zapier"
+    ],
+    "lead_source": "Outbound - SDR",
+    "last_contacted": "2025-08-22",
+    "notes": "Needs HIPAA-compliant workflows and data governance. Testing incrementality and MMM readiness.",
+    "tags": [
+      "logistics",
+      "retail media",
+      "manufacturing",
+      "enrichment"
+    ]
+  },
+  {
+    "id": 198,
+    "first_name": "Leah",
+    "last_name": "Young",
+    "email": "leah.young@redpinefiber.example",
+    "job_title": "Head of Lifecycle Marketing",
+    "company": "RedPineFiber",
+    "company_size": 1200,
+    "industry": "AgTech",
+    "location": "Sydney, AU",
+    "website": "https://redpinefiber.example",
+    "tech_stack": [
+      "NielsenIQ",
+      "Zapier",
+      "HubSpot",
+      "6sense",
+      "Asana"
+    ],
+    "lead_source": "Outbound - AE",
+    "last_contacted": "2025-08-09",
+    "notes": "Focus on ROAS and signal loss mitigation post-cookie. Interested in retail media pilots and privacy-safe audiences. Seasonal campaigns with weather-triggered logic.",
+    "tags": [
+      "manufacturing",
+      "geofencing",
+      "HIPAA"
+    ]
+  },
+  {
+    "id": 199,
+    "first_name": "Samir",
+    "last_name": "Wong",
+    "email": "samir.wong@nextpeaksystems.example",
+    "job_title": "Director of Analytics",
+    "company": "NextPeakSystems",
+    "company_size": 450,
+    "industry": "Telecom",
+    "location": "Austin, TX",
+    "website": "https://nextpeaksystems.example",
+    "tech_stack": [
+      "Klaviyo",
+      "Segment"
+    ],
+    "lead_source": "Event - trade show",
+    "last_contacted": "2025-08-18",
+    "notes": "Wants clean-room integrations and offline matchback. Exploring LTV-based bidding and fraud mitigation.",
+    "tags": [
+      "HIPAA",
+      "logistics",
+      "APAC",
+      "retail media"
+    ]
+  },
+  {
+    "id": 200,
+    "first_name": "Victor",
+    "last_name": "Rossi",
+    "email": "victor.rossi@pacificfoods.example",
+    "job_title": "Director, Digital Acquisition",
+    "company": "PacificFoods",
+    "company_size": 800,
+    "industry": "Real Estate",
+    "location": "London, UK",
+    "website": "https://pacificfoods.example",
+    "tech_stack": [
+      "HubSpot",
+      "mParticle"
+    ],
+    "lead_source": "Inbound - webinar",
+    "last_contacted": "2025-08-22",
+    "notes": "Seasonal campaigns with weather-triggered logic. Considering dynamic creative optimization and feeds. Looking for multilingual creatives and localization.",
+    "tags": [
+      "retail media",
+      "RAG"
+    ]
+  }
+]

@@ -58,8 +58,8 @@ def pipeline_main():
 
 
 def main():
-    test_main()
-    # pipeline_main()
+    # test_main()
+    pipeline_main()
 
 
 if __name__ == "__main__":

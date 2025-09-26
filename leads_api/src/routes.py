@@ -62,12 +62,9 @@ class Lead(BaseModel):
     notes: Optional[str] = Field(None, example="Exploring LTV-based bidding and fraud mitigation.")
     tags: List[str] = Field(default_factory=list, example=["SKAN", "SDK", "routing", "clean room"])
 
-    def to_dict_form(self):
-        return self.model_dump()
-
 @leads_router.post('')
 async def create_lead(lead: Lead):
-    lead = await create_or_update_lead(lead.to_dict_form())
+    lead = await create_or_update_lead(lead.model_dump())
     return lead
 
 

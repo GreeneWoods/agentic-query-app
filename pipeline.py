@@ -12,7 +12,7 @@ def create_record(base_url, lead_data):
 
 
 def test_main():
-    base_url = 'http://localhost:8001'
+    base_url = 'http://127.0.0.1:8001'
     test_lead = {
         "id": 1,
         "first_name": "Avery",

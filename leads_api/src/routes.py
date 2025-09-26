@@ -29,16 +29,12 @@ def _parse_bool(value: Any) -> Optional[bool]:
 @leads_router.get('')
 async def query_leads(
         query: str = Query(..., description="Search query for leads"),
-        tag: Optional[str] = Query(None, description="Filter leads by tag"),
-        tech_stack: Optional[str] = Query(None, description="Filter leads by tech stack"),
         is_high_priority: Optional[bool] = Query(None, description="Filter high priority leads")
 ):
     # parse is_high_priority to boolean
     is_high_priority = _parse_bool(is_high_priority)
     leads = await execute_leads_query(
         query_text=query,
-        tag=tag,
-        tech_stack=tech_stack,
         is_high_priority=is_high_priority
     )
 
@@ -55,16 +51,17 @@ class Lead(BaseModel):
     company_size: Optional[int] = Field(None, example=7000)
     industry: Optional[str] = Field(None, example="Cybersecurity")
     location: Optional[str] = Field(None, example="Singapore, SG")
-    website: Optional[AnyUrl] = Field(None, example="https://silveroakclinic.example")
+    website: Optional[str] = Field(None, example="https://silveroakclinic.example")
     tech_stack: List[str] = Field(default_factory=list, example=["Snowflake", "Slate"])
     lead_source: Optional[str] = Field(None, example="Community")
-    last_contacted: Optional[dt.date] = Field(None, example="2025-09-17")
+    last_contacted: Optional[str] = Field(None, example="2025-09-17")
     notes: Optional[str] = Field(None, example="Exploring LTV-based bidding and fraud mitigation.")
     tags: List[str] = Field(default_factory=list, example=["SKAN", "SDK", "routing", "clean room"])
 
 @leads_router.post('')
 async def create_lead(lead: Lead):
-    lead = await create_or_update_lead(lead.model_dump())
+    lead_as_dict = lead.model_dump()
+    lead = await create_or_update_lead(lead_as_dict)
     return lead
 
 

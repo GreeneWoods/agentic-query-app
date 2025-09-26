@@ -9,7 +9,7 @@ from services.leads_services import (
     delete_lead_record
 )
 
-leads_router = APIRouter(prefix="api/v1/leads")
+leads_router = APIRouter(prefix="/api/v1/leads")
 
 
 def _parse_bool(value: Any) -> Optional[bool]:

@@ -17,5 +17,6 @@ services:
       - "8002:8002"
     environment:
       - PORT=8002
+      - api_url=http://api:8001
     depends_on:
       - api

@@ -20,3 +20,15 @@ services:
       - api_url=http://api:8001
     depends_on:
       - api
+
+  agent:
+    build:
+      context: ./leads_agent
+    stdin_open: true
+    tty: true
+    container_name: leads_agent
+    environment:
+      - OPENAI_API_KEY
+      - mcp_url=http://mcp:8002
+    depends_on:
+      - mcp

@@ -1,3 +1,4 @@
+from config import settings
 from collections.abc import AsyncIterable
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.mcp import MCPServerStreamableHTTP
@@ -14,7 +15,7 @@ async def print_tool_events(ctx: RunContext, stream: AsyncIterable[AgentStreamEv
 
 async def main():
 
-    server = MCPServerStreamableHTTP('http://localhost:8002/v1/leads/mcp/')
+    server = MCPServerStreamableHTTP(f'{settings.mcp_url}/v1/leads/mcp/')
     agent = Agent('openai:gpt-4.1-mini', toolsets=[server])
     message_history = []
     while True:

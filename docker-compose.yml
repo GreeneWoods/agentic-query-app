@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: ./leads_api
+    container_name: leads_api
+    ports:
+      - "8001:8001"
+    environment:
+      - PORT=8001
+
+  mcp:
+    build:
+      context: ./leads_mcp
+
+    container_name: leads_mcp
+    ports:
+      - "8002:8002"
+    environment:
+      - PORT=8002
+    depends_on:
+      - api

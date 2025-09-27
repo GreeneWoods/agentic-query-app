@@ -21,7 +21,7 @@ A few suggested prompts include
 From there we are off to the races.  I also included a minimal event_stream_handler so that 
 you can see the agent's tools in action.  I find that it helps to understand inputs/outputs.
 
-When you're complete kill, the container with `CTRL+C` and then be sure to run `docker compose down` 
+When you're complete, kill the container with `CTRL+C` and then be sure to run `docker compose down` 
 to decompose everything that was spun up.
 
 
@@ -76,3 +76,20 @@ three separate terminals for this setup.
 I hope these steps serve you well.  I made this README using Ubuntu, while I believe these commands
 should transfer, you may need to make some adjustments for your OS.  I also used OpenAI's api for this solution,
 but I'm confident it can be altered to use other LLM providers without any additional effort.
+
+## Troubleshooting
+
+If for whatever reason the db doesn't spin up properly please follow these steps:
+1. follow the instructions in the leads_api/README.md.
+2. uncomment ./leads_api/db.py:7
+3. start the api
+4. stop the api
+5. comment out ./leads_api/db.py:7
+6. restart the api
+7. open another terminal
+8. activate the api virtual environment
+9. navigate to the root folder
+10. `python pipeline.py`
+
+The process is idempotent, so it should be safe to run multiple times, or with incomplete
+data.

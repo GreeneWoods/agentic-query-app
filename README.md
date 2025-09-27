@@ -79,7 +79,8 @@ but I'm confident it can be altered to use other LLM providers without any addit
 
 ## Troubleshooting
 
-If for whatever reason the db doesn't spin up properly please follow these steps:
+If for whatever reason the db doesn't spin up properly please accept my humblest apologies, 
+and then please follow these steps:
 1. follow the instructions in the leads_api/README.md.
 2. uncomment ./leads_api/db.py:7
 3. start the api

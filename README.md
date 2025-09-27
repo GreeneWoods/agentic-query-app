@@ -16,12 +16,12 @@ complete it should be a bit smoother.
 A few suggested prompts include
 1. a sanity check: "ping" -> "pong"
 2. a memory check: "my favorite fruit is an apple" -> response -> "what's my favorite fruit?" -> "apple"
-3. please find me my high priority leads in new york -> a list of leads
+3. a connectivity check: "please find me my high priority leads in new york" -> "a list of new york leads"
 
 From there we are off to the races.  I also included a minimal event_stream_handler so that 
 you can see the agent's tools in action.  I find that it helps to understand inputs/outputs.
 
-When you're complete kill the container with `CTRL+C` and then be sure to run `docker compose down` 
+When you're complete kill, the container with `CTRL+C` and then be sure to run `docker compose down` 
 to decompose everything that was spun up.
 
 
@@ -30,18 +30,18 @@ let's talk through the project structure.
 
 ## Overview
 
-There are 4 layers to the project they relate to one another as follows:
+There are 4 layers to the project and they relate to one another as follows:
 
 Agent <> MCP <> API <> DB
 
 I built them as separate applications to reflect what the system would look like as a 
 suite of microservices. In a production system, these would be deployed and scaled separately.
 
-This kind of architecture allows for highly scalable, maintainable, and flexible systems.
+The distributed architecture allows for highly scalable, maintainable, and flexible systems.
 
 Ultimately it fosters reusability.  This allows for us to make components that can support 
 emergent systems on the fly.  We can adapt to needs as they arise.  New systems can be added
-on without having to re-architect the entire system.
+on without having to re-architect the entire system as a whole.
 
 ## Alternative Setup with Extended Visibility
 
